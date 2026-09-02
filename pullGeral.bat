@@ -1,81 +1,94 @@
 @echo off
 setlocal enabledelayedexpansion
+chcp 65001 > nul
+cls
 
-:: ====================================================
-:: CONFIGURAÇÃO DE DIRETÓRIOS (INSIRA SEU LINK DO REPO AQUI)
-:: ====================================================
-:: IMPORTANTE: Substitua o link abaixo pelo link do seu repositório real do GitHub
+echo ===================================================
+echo   SISTEMA MONOREPO CENTRALIZADO (PULL / RESTAURAR)
+echo ===================================================
+echo.
+
+set "PRISM_PATH=C:\Users\mateo.somavilla\AppData\Roaming\PrismLauncher"
 set "REPO_URL=https://github.com/logoali231-droid/mysaves"
 
-set "PRISM_INSTANCES=C:\Users\mateo.somavilla.GRUPOMARISTA.000\AppData\Roaming\PrismLauncher\instances"
-set "CENTRAL_GIT_DIR=C:\Users\mateo.somavilla.GRUPOMARISTA.000\AppData\Roaming\PrismLauncher\Central_Minecraft_Backup"
-
-echo ====================================================
-echo      SISTEMA MONOREPO CENTRALIZADO (FLUXO PULL)   
-echo ====================================================
+:: Sincroniza o Git local com o remoto
+echo [INFO] Atualizando repositorio local a partir do GitHub...
+git pull origin main --rebase 2>nul || git pull origin main 2>nul || git pull
 echo.
 
-:: 1. Cria a pasta mestre do repositório local se ela não existir
-if not exist "%CENTRAL_GIT_DIR%" mkdir "%CENTRAL_GIT_DIR%"
+:: 1. Listar Modpacks do Repositório
+echo Selecione o Modpack cadastrado no repositório:
+echo.
 
-:: Entra na pasta central do Git
-cd /d "%CENTRAL_GIT_DIR%"
-
-:: 2. Inicializa ou atualiza o repositório mestre trazendo tudo do GitHub
-if not exist ".git" (
-    echo [INFO] Inicializando repositorio mestre local...
-    git init
-    git remote add origin %REPO_URL%.git
-    git branch -M main
-    echo [INFO] Baixando toda a arvore de saves da nuvem...
-    git pull origin main
-) else (
-    echo [INFO] Sincronizando repositorio mestre com a nuvem...
-    git fetch origin
-    git pull origin main --rebase
+set count=0
+for /d %%D in ("%~dp0*") do (
+    set "FOLDER_NAME=%%~nxD"
+    if /i not "!FOLDER_NAME!"==".git" if not "!FOLDER_NAME:~0,1!"=="." (
+        set /a count+=1
+        set "pack[!count!]=!FOLDER_NAME!"
+        echo   !count!. !FOLDER_NAME!
+    )
 )
 
-:: 3. Coleta os dados do Modpack e do Mundo específico para restaurar
-echo.
-set /p "PACK_NAME=1. Digite o nome exato do Modpack (Ex: Cuboid Outpost): "
-set /p "WORLD_NAME=2. Digite o nome exato da pasta do MUNDO que quer puxar: "
-
-:: Limpa os nomes substituindo espaços por underlines para bater com a estrutura do Git
-set "PACK_NAME_CLEAN=%PACK_NAME: =_%"
-set "WORLD_NAME_CLEAN=%WORLD_NAME: =_%"
-
-:: Define as rotas lógicas de destino e origem
-set "TARGET_WORLD_DIR=%PRISM_INSTANCES%\%PACK_NAME%\minecraft\saves\%WORLD_NAME%"
-set "SOURCE_FOLDER=%CENTRAL_GIT_DIR%\%PACK_NAME_CLEAN%\%WORLD_NAME_CLEAN%"
-
-:: 4. Verifica se a pasta desse mundo realmente existe na nuvem local baixada
-if not exist "%SOURCE_FOLDER%" (
-    echo.
-    echo [ERRO] O mundo "%WORLD_NAME%" nao foi encontrado na nuvem para o pack "%PACK_NAME%"!
-    echo Verifique se digitou o nome correto ou se a pasta existe no GitHub.
+if %count%==0 (
+    echo [ERRO] Nenhum modpack encontrado na pasta do repositorio!
     pause
     exit /b
 )
 
-:: ====================================================
-:: PASSO 5: RESTAURAR O MUNDO DA NUVEM DIRETO PARA O PRISM
-:: ====================================================
 echo.
-echo [INFO] Restaurando o save [%WORLD_NAME%] da nuvem para o Prism Launcher...
+set /p PACK_CHOICE="Digite o NUMERO do Modpack: "
+set "PACK=!pack[%PACK_CHOICE%]!"
 
-:: Se a pasta de saves do modpack não existir no Prism (caso seja uma instância zerada), cria ela
-if not exist "%TARGET_WORLD_DIR%" mkdir "%TARGET_WORLD_DIR%"
+if "!PACK!"=="" (
+    echo [ERRO] Opção inválida!
+    pause
+    exit /b
+)
 
-:: Remove arquivos temporarios antigos de trava local se existirem para evitar conflitos
-if exist "%TARGET_WORLD_DIR%\session.lock" del /q /f "%TARGET_WORLD_DIR%\session.lock" 2>nul
+:: 2. Listar Mundos do Modpack Selecionado
+cls
+echo Modpack selecionado: !PACK!
+echo ---------------------------------------------------
+echo Selecione o Mundo para restaurar:
+echo.
 
-:: Copia cirurgicamente os arquivos do mundo puxado para dentro da pasta do jogo
-xcopy "%SOURCE_FOLDER%\*" "%TARGET_WORLD_DIR%\" /E /H /Y /Q >nul
+set w_count=0
+for /d %%W in ("%~dp0!PACK!\*") do (
+    set "WORLD_NAME=%%~nxW"
+    set /a w_count+=1
+    set "world[!w_count!]=!WORLD_NAME!"
+    echo   !w_count!. !WORLD_NAME!
+)
+
+if %w_count%==0 (
+    echo [ERRO] Nenhum mundo encontrado dentro do modpack !PACK!!
+    pause
+    exit /b
+)
 
 echo.
-echo ====================================================
-echo   SUCESSO! O MUNDO [%WORLD_NAME%] FOI ATUALIZADO NO PRISM.
-echo   Pode abrir o jogo e carregar seu save agora!
-echo ====================================================
-timeout /t 5 >nul
-exit /b
+set /p WORLD_CHOICE="Digite o NUMERO do Mundo: "
+set "WORLD=!world[%WORLD_CHOICE%]!"
+
+if "!WORLD!"=="" (
+    echo [ERRO] Opção inválida!
+    pause
+    exit /b
+)
+
+:: 3. Executar Cópia para o Prism Launcher
+cls
+set "REPO_SOURCE=%~dp0!PACK!\!WORLD!"
+set "WORLD_TARGET=%PRISM_PATH%\instances\!PACK!\minecraft\saves\!WORLD!"
+
+echo [INFO] Copiando "!PACK! -> !WORLD!" para o Prism Launcher...
+if not exist "!WORLD_TARGET!" mkdir "!WORLD_TARGET!"
+
+robocopy "!REPO_SOURCE!" "!WORLD_TARGET!" /E /MIR /FFT /R:2 /W:2 /XJ /NDL /NFL
+
+echo.
+echo ===================================================
+echo   Restauração concluída com sucesso!
+echo ===================================================
+pause
