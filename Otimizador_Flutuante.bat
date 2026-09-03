@@ -7,18 +7,18 @@ exit /b
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
-# Janela Flutuante Compacta V3.0
+# Janela Flutuante Compacta V5.0
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Otimizador RAM 3.0"
-$form.Size = New-Object System.Drawing.Size(185, 54)
+$form.Text = "Otimizador V5.0"
+$form.Size = New-Object System.Drawing.Size(200, 54)
 $form.StartPosition = "Manual"
 $form.Location = New-Object System.Drawing.Point(80, 80)
 $form.FormBorderStyle = "None"
 $form.TopMost = $true
 $form.ShowInTaskbar = $false
-$form.BackColor = [System.Drawing.Color]::FromArgb(20, 20, 20)
+$form.BackColor = [System.Drawing.Color]::FromArgb(15, 15, 15)
 
-# Mover janela clicando e arrastando o fundo
+# Mover janela
 $form.Add_MouseDown({
     if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Left) {
         $form.Capture = $false
@@ -27,21 +27,20 @@ $form.Add_MouseDown({
     }
 })
 
-# Botao Toggle ON / OFF
+# Botoes
 $btnToggle = New-Object System.Windows.Forms.Button
-$btnToggle.Size = New-Object System.Drawing.Size(135, 38)
+$btnToggle.Size = New-Object System.Drawing.Size(150, 38)
 $btnToggle.Location = New-Object System.Drawing.Point(8, 8)
-$btnToggle.Text = "RAM 3.0: LIGADO"
+$btnToggle.Text = "OTIMIZADOR: LIGADO"
 $btnToggle.FlatStyle = "Flat"
 $btnToggle.FlatAppearance.BorderSize = 0
 $btnToggle.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
 $btnToggle.ForeColor = [System.Drawing.Color]::White
-$btnToggle.Font = New-Object System.Drawing.Font("Segoe UI", 9, [System.Drawing.FontStyle]::Bold)
+$btnToggle.Font = New-Object System.Drawing.Font("Segoe UI", 8.5, [System.Drawing.FontStyle]::Bold)
 
-# Botao Fechar (X)
 $btnClose = New-Object System.Windows.Forms.Button
 $btnClose.Size = New-Object System.Drawing.Size(24, 24)
-$btnClose.Location = New-Object System.Drawing.Point(152, 6)
+$btnClose.Location = New-Object System.Drawing.Point(167, 6)
 $btnClose.Text = "X"
 $btnClose.FlatStyle = "Flat"
 $btnClose.FlatAppearance.BorderSize = 0
@@ -49,8 +48,9 @@ $btnClose.ForeColor = [System.Drawing.Color]::FromArgb(160, 160, 160)
 $btnClose.Font = New-Object System.Drawing.Font("Segoe UI", 8, [System.Drawing.FontStyle]::Bold)
 $btnClose.Add_Click({ $form.Close() })
 
-# Otimizacao Direct-System (.NET puro para 0% lag)
 $script:myPID = [System.Diagnostics.Process]::GetCurrentProcess().Id
+
+# Rotina 1: RAM (Leve e Rapida)
 $cleanRAM = {
     $processes = [System.Diagnostics.Process]::GetProcesses()
     foreach ($proc in $processes) {
@@ -65,32 +65,67 @@ $cleanRAM = {
     try { [System.Diagnostics.Process]::GetCurrentProcess().EmptyWorkingSet() | Out-Null } catch {}
 }
 
-# Timer em segundo plano (Ciclos de 45s)
-$timer = New-Object System.Windows.Forms.Timer
-$timer.Interval = 45000
+# Rotina 2: Disco/Cache (Lenta, Executada via Thread)
+$cleanDisk = {
+    $limitTime = (Get-Date).AddHours(-1)
+    $cachePaths = @(
+        "$env:LOCALAPPDATA\Google\Chrome\User Data\Default\Cache\*",
+        "$env:LOCALAPPDATA\Google\Chrome\User Data\Default\Code Cache\*",
+        "$env:LOCALAPPDATA\Microsoft\Edge\User Data\Default\Cache\*",
+        "$env:LOCALAPPDATA\BraveSoftware\Brave-Browser\User Data\Default\Cache\*",
+        "$env:LOCALAPPDATA\Mozilla\Firefox\Profiles\*\cache2\*",
+        "$env:TEMP\*",
+        "$env:SystemRoot\Temp\*"
+    )
+    foreach ($path in $cachePaths) {
+        try {
+            Get-ChildItem -Path $path -Recurse -File -ErrorAction SilentlyContinue | 
+            Where-Object { $_.LastWriteTime -lt $limitTime } | 
+            Remove-Item -Force -ErrorAction SilentlyContinue
+        } catch {}
+    }
+}
+
+# Timers Independentes
+$timerRAM = New-Object System.Windows.Forms.Timer
+$timerRAM.Interval = 45000 # 45 segundos
+
+$timerDisk = New-Object System.Windows.Forms.Timer
+$timerDisk.Interval = 1800000 # 30 minutos
+
 $script:isActive = $true
 
+# Primeiro disparo ao abrir
 & $cleanRAM
+$runspace = [powershell]::Create().AddScript($cleanDisk)
+$runspace.BeginInvoke() | Out-Null
 
-$timer.Add_Tick({
-    if ($script:isActive) {
-        & $cleanRAM
-    }
+# Loops
+$timerRAM.Add_Tick({ if ($script:isActive) { & $cleanRAM } })
+$timerDisk.Add_Tick({ 
+    if ($script:isActive) { 
+        $rs = [powershell]::Create().AddScript($cleanDisk)
+        $rs.BeginInvoke() | Out-Null
+    } 
 })
-$timer.Start()
 
-# Clique no Alternador
+$timerRAM.Start()
+$timerDisk.Start()
+
+# Toggle
 $btnToggle.Add_Click({
     $script:isActive = -not $script:isActive
     if ($script:isActive) {
-        $btnToggle.Text = "RAM 3.0: LIGADO"
+        $btnToggle.Text = "OTIMIZADOR: LIGADO"
         $btnToggle.BackColor = [System.Drawing.Color]::FromArgb(34, 139, 34)
-        $timer.Start()
+        $timerRAM.Start()
+        $timerDisk.Start()
         & $cleanRAM
     } else {
-        $btnToggle.Text = "RAM 3.0: DESLIGADO"
+        $btnToggle.Text = "OTIMIZADOR: DESLIGADO"
         $btnToggle.BackColor = [System.Drawing.Color]::FromArgb(178, 34, 34)
-        $timer.Stop()
+        $timerRAM.Stop()
+        $timerDisk.Stop()
     }
 })
 
