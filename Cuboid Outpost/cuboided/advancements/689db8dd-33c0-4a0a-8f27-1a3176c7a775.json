@@ -8885,6 +8885,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "hammer": "2026-09-14 10:36:40 -0300"
+    },
+    "done": true
+  },
   "cuboidmod:recipes/cuboidmod/notarfbadium_dust_with_smoosher_and_ore": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:00 -0300"
@@ -16947,6 +16953,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_gold": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:04:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2026-09-14 09:16:03 -0300"
     },
     "done": true
   },
