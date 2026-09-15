@@ -2841,6 +2841,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-09-15 10:51:39 -0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/andesite_cobblestone_wall_from_andesite_cobblestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:03 -0300"
@@ -2892,6 +2898,12 @@
   "create:recipes/create.palettes/paved_granite_slab": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-09-15 12:12:37 -0300"
     },
     "done": true
   },
@@ -3369,6 +3381,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/make_steel": {
+    "criteria": {
+      "steel": "2026-09-15 15:00:26 -0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_limestone_wall_from_polished_limestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:01 -0300"
@@ -3757,6 +3775,7 @@
     "criteria": {
       "minecraft:blaze": "2026-09-13 18:03:55 -0300",
       "minecraft:skeleton": "2026-08-18 14:12:04 -0300",
+      "minecraft:witch": "2026-09-15 12:59:50 -0300",
       "minecraft:zombie": "2026-08-24 14:10:17 -0300"
     },
     "done": false
@@ -4238,6 +4257,12 @@
   "cuboidmod:recipes/cuboidmod/notarfbadium_quantum_collapser_upgrade": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:04 -0300"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2026-09-15 15:26:39 -0300"
     },
     "done": true
   },
@@ -5315,6 +5340,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-09-15 12:59:50 -0300"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_red_from_slab": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:00 -0300"
@@ -6341,6 +6372,12 @@
     },
     "done": true
   },
+  "create:brass": {
+    "criteria": {
+      "0": "2026-09-15 13:45:38 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:04 -0300"
@@ -6500,6 +6537,12 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2026-09-11 21:03:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/very_very_frightening": {
+    "criteria": {
+      "struck_villager": "2026-09-15 12:59:40 -0300"
     },
     "done": true
   },
@@ -7901,6 +7944,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/puny_smelting": {
+    "criteria": {
+      "crafted_book": "2026-09-15 10:35:19 -0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/gadgets/gadgets/slimesling/earth": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:02 -0300"
@@ -8804,6 +8853,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/stairs_treated_wood_vertical": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-09-15 10:52:54 -0300"
     },
     "done": true
   },
@@ -13338,6 +13393,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-09-15 12:36:17 -0300"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/spruce_mail_box": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:04:58 -0300"
@@ -13875,6 +13936,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_lead_to_storage_lead": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:00 -0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/tinkers_anvil": {
+    "criteria": {
+      "crafted_overworld": "2026-09-15 11:01:08 -0300"
     },
     "done": true
   },
@@ -15213,6 +15280,12 @@
   "cfm:recipes/cfm/cyan_grill": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:03 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-09-15 13:00:09 -0300"
     },
     "done": true
   },
@@ -19344,6 +19417,12 @@
     },
     "done": true
   },
+  "create:belt_funnel": {
+    "criteria": {
+      "0": "2026-09-15 14:16:06 -0300"
+    },
+    "done": true
+  },
   "refinedstorage:recipes/refinedstorage/coloring_recipes/blue_wireless_transmitter": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:01 -0300"
@@ -19905,6 +19984,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_brown": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:03 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2026-09-15 12:59:50 -0300"
     },
     "done": true
   },
@@ -22248,6 +22333,12 @@
     },
     "done": true
   },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2026-09-15 14:25:33 -0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/copper_can": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:03 -0300"
@@ -23199,6 +23290,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2026-08-17 15:02:39 -0300",
+      "chicken": "2026-09-15 11:51:06 -0300",
+      "cooked_mutton": "2026-09-15 13:34:14 -0300",
       "porkchop": "2026-08-17 15:02:18 -0300",
       "apple": "2026-08-17 14:52:35 -0300",
       "spider_eye": "2026-08-17 12:03:36 -0300",
@@ -23209,6 +23302,7 @@
       "salmon": "2026-08-17 15:03:01 -0300",
       "dried_kelp": "2026-09-01 09:31:52 -0300",
       "golden_carrot": "2026-09-13 17:16:24 -0300",
+      "cooked_chicken": "2026-09-15 11:51:25 -0300",
       "cod": "2026-08-18 13:21:45 -0300",
       "cooked_salmon": "2026-08-17 15:08:30 -0300",
       "carrot": "2026-09-12 14:00:43 -0300"
@@ -23254,6 +23348,12 @@
   "tconstruct:recipes/brewing/common/glass/vanilla/glass_bottle": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:04:59 -0300"
+    },
+    "done": true
+  },
+  "create:polished_rose_quartz": {
+    "criteria": {
+      "0": "2026-09-15 13:47:48 -0300"
     },
     "done": true
   },
@@ -23545,6 +23645,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_workbench": {
+    "criteria": {
+      "workbench": "2026-09-15 11:06:02 -0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/glass/cyan_clear_stained_glass_pane_from_panes": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:05:04 -0300"
@@ -23710,6 +23816,12 @@
   "create:recipes/create.palettes/tiled_glass_pane": {
     "criteria": {
       "has_the_recipe": "2026-08-17 10:04:59 -0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/mighty_smelting": {
+    "criteria": {
+      "crafted_book": "2026-09-15 11:01:08 -0300"
     },
     "done": true
   },
