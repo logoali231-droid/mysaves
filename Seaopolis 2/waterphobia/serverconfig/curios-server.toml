@@ -1,0 +1,41 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "head"
+	override = true
+	priority = 1
+
+[[curiosSettings]]
+	identifier = "body"
+	override = true
+	priority = 2
+
+[[curiosSettings]]
+	identifier = "legs"
+	icon = "curios:slot/empty_legs_slot"
+	priority = 3
+
+[[curiosSettings]]
+	identifier = "boots"
+	icon = "curios:slot/empty_boots_slot"
+	priority = 4
+
+[[curiosSettings]]
+	identifier = "back"
+
+[[curiosSettings]]
+	identifier = "belt"
+	override = true
+
+[[curiosSettings]]
+	identifier = "charm"
+	override = true
+
+[[curiosSettings]]
+	identifier = "necklace"
+	icon = "curios:slot/empty_necklace_slot"
+
+[[curiosSettings]]
+	identifier = "necklace"
+	icon = "curios:slot/empty_necklace_slot"
+

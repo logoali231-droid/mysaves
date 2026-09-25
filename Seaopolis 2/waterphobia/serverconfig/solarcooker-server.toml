@@ -1,0 +1,16 @@
+
+#Options that affect the added Solar Cooker.
+["Solar Cooker Settings"]
+	#A comma separated list of all vanilla recipes that should not be used by the solar cooker. Example: "baked_potato,baked_potato_from_smoking,othermod:other_baked_food"
+	recipeBlacklist = ""
+	#If enabled, the vanilla blasting, smelting, or smoking recipes are used by the solar cooker.
+	vanillaRecipesEnabled = true
+	#Speed factor when all 4 reflectors are placed next to the solar cooker. (i. e. 0.5 - half the time, 1.0 same time)
+	#Range: 0.0 ~ 1.0
+	maxReflectorSpeedFactor = 0.25
+	#Defines which vanilla recipes the solar cooker can use. Possible values: "smoking" (default), "smelting", "blasting", "campfire_cooking"
+	vanillaRecipeType = "smelting"
+	#Cook time factor of the solar cooker in relation to corresponding vanilla furnace. (i. e. 0.5 - half the time, 1.0 same time, 2.0 twice the time)
+	#Range: 0.0 ~ 100.0
+	cookTimeFactor = 4.0
+
