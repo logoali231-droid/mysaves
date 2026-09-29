@@ -1,0 +1,11 @@
+# Forçar arquivos do Minecraft a serem tratados estritamente como binários puros
+*.dat binary
+*.dat_old binary
+*.nbt binary
+*.png binary
+*.lock binary
+
+# Garantir que scripts comuns usem quebras de linha consistentes sem conversão destrutiva
+*.bat text eol=crlf
+*.sh text eol=lf
+*.md text
