@@ -1,0 +1,68 @@
+
+#List of diet effects
+[[effects]]
+
+	[[effects.attributes]]
+		amount = 2.0
+		name = "minecraft:generic.armor_toughness"
+		operation = "add"
+
+	[[effects.attributes]]
+		amount = 4.0
+		name = "minecraft:generic.armor"
+		operation = "add"
+
+	[[effects.attributes]]
+		amount = 4.0
+		name = "minecraft:generic.max_health"
+		operation = "add"
+
+	[[effects.conditions]]
+		below = 1.0
+		match = "all"
+		above = 0.8
+		groups = ["satiated"]
+
+[[effects]]
+
+	[[effects.attributes]]
+		amount = 0.25
+		name = "minecraft:generic.attack_speed"
+		operation = "multiply_total"
+
+	[[effects.attributes]]
+		amount = 0.25
+		name = "minecraft:generic.movement_speed"
+		operation = "multiply_base"
+
+	[[effects.status_effects]]
+		name = "minecraft:regeneration"
+		power = 1
+
+	[[effects.conditions]]
+		below = 1.0
+		match = "all"
+		above = 0.8
+		groups = ["comforted"]
+
+[[effects]]
+
+[[effects]]
+
+	[[effects.attributes]]
+		name = "minecraft:generic.attack_damage"
+		operation = "add"
+		amount = 6.0
+
+	[[effects.status_effects]]
+		name = "cofh_core:clarity"
+		power = 1
+
+	[[effects.conditions]]
+		below = 1.0
+		match = "all"
+		above = 0.8
+		groups = ["spirited"]
+
+[[effects]]
+

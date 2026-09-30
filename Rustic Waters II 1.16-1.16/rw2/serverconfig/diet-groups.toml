@@ -1,0 +1,29 @@
+
+#List of diet groups
+[[groups]]
+	color = "#b01799"
+	decay_multiplier = 1.0
+	name = "satiated"
+	icon = "pamhc2foodextended:ploughmanslunchitem"
+	gain_multiplier = 1.0
+	default_value = 0.0
+	order = 0
+
+[[groups]]
+	color = "#b02917"
+	decay_multiplier = 1.0
+	name = "comforted"
+	icon = "pamhc2foodcore:cottoncandyitem"
+	gain_multiplier = 1.0
+	default_value = 0.0
+	order = 0
+
+[[groups]]
+	color = "#b09417"
+	decay_multiplier = 1.0
+	name = "spirited"
+	icon = "tipsy:poobst"
+	gain_multiplier = 1.25
+	default_value = 0.0
+	order = 1
+

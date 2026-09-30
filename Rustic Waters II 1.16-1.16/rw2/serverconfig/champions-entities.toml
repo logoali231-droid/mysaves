@@ -1,0 +1,82 @@
+
+#List of entity configurations
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 2
+	minTier = 2
+	entity = "mowziesmobs:barako"
+	presetAffixes = ["enkindling", "desecrating"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 3
+	minTier = 3
+	entity = "dungeons_mobs:squall_golem"
+	presetAffixes = ["magnetic", "arctic", "reflective"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["paralyzing"]
+	maxTier = 3
+	minTier = 2
+	entity = "artifacts:mimic"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 3
+	minTier = 3
+	entity = "dungeons_mobs:redstone_golem"
+	presetAffixes = ["molten", "enkindling", "desecrating"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 2
+	minTier = 2
+	entity = "ars_nouveau:wilden_chimera"
+	presetAffixes = ["enkindling", "desecrating"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 2
+	minTier = 1
+	entity = "dungeons_mobs:redstone_cube"
+	presetAffixes = ["plagued"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 2
+	minTier = 1
+	entity = "minecraft:vex"
+	presetAffixes = ["enkindling"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 1
+	minTier = 1
+	entity = "dungeons_mobs:armored_vindicator"
+	presetAffixes = ["molten"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 1
+	minTier = 1
+	entity = "dungeons_mobs:vindicator_chef"
+	presetAffixes = ["infested"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["knocking", "wounding", "paralyzing"]
+	maxTier = 3
+	minTier = 3
+	entity = "atum:pharaoh"
+	presetAffixes = ["enkindling", "desecrating"]
+

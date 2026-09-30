@@ -1,0 +1,3 @@
+#Coin model modes: arabic, blank, roman
+coin_model = "arabic"
+
