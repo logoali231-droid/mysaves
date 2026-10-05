@@ -532,3 +532,19 @@ recipes.addShaped("easy_creative_vending", <storagedrawers:upgrade_creative>, [
     [<minecraft:gold_block>, <minecraft:chest>, <minecraft:gold_block>],
     [<minecraft:obsidian>, <minecraft:redstone_block>, <minecraft:obsidian>]
 ]);
+
+// ==========================================
+// KIT INICIAL SURVIVAL (Sem Cheats / Sem Mods de Library)
+// ==========================================
+
+// 1 Bloco de Terra -> 1 Escudo
+recipes.addShapeless("starter_shield", <minecraft:shield>, [
+    <minecraft:dirt>
+]);
+
+// Se você baixou o mod Reliquary, pode ativar estas linhas tirando as barras (//):
+// 1 Terra + 1 Cascalho -> Ghast Charm
+// recipes.addShapeless("starter_ghast", <reliquary:ghast_charm>, [<minecraft:dirt>, <minecraft:gravel>]);
+
+// 1 Terra + 1 Pedra -> Lava Charm
+// recipes.addShapeless("starter_lava", <reliquary:lava_charm>, [<minecraft:dirt>, <minecraft:cobblestone>]);
