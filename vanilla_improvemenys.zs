@@ -87,7 +87,7 @@ recipes.addShaped("craft_saddle", <minecraft:saddle>, [
 // Craft de Name Tag (Etiqueta)
 recipes.addShaped("craft_nametag", <minecraft:name_tag>, [
     [null, <minecraft:paper>, <minecraft:string>],
-    [<minecraft:paper>, <minecraft:ink_sac>, <minecraft:paper>],
+    [<minecraft:paper>, <minecraft:dye:0>, <minecraft:paper>],
     [<minecraft:paper>, <minecraft:paper>, null]
 ]);
 
@@ -384,9 +384,9 @@ recipes.addShapeless("easy_chorus_fruit", <minecraft:chorus_fruit> * 2, [
     <minecraft:apple>, <minecraft:ender_pearl>
 ]);
 
-// Sementes de Melancia / Abóbora Diretas
+// Sementes de Melancia
 recipes.addShapeless("easy_melon_seeds", <minecraft:melon_seeds> * 2, [
-    <minecraft:wheat_seeds>, <minecraft:green_dye>
+    <minecraft:wheat_seeds>, <minecraft:dye:2>
 ]);
 
 // ==========================================
@@ -408,17 +408,16 @@ recipes.addShaped("easy_lava_craft", <minecraft:lava_bucket>, [
 // MÓDULO NETHER COMPLETO (Acessibilidade)
 // ==========================================
 
-// 1. Minério de Quartzo (Nether Quartz Ore)
-// 1 Pedregulho + 1 Diorita + 1 Redstone = 2 Minérios de Quartzo
+// Minério de Quartzo
 recipes.addShaped("easy_quartz_ore", <minecraft:quartz_ore> * 2, [
-    [<minecraft:cobblestone>, <minecraft:diorite>, null],
+    [<minecraft:cobblestone>, <minecraft:stone:3>, null],
     [<minecraft:redstone>, <minecraft:cobblestone>, null],
     [null, null, null]
 ]);
 
-// Quartzo direto (Item): 1 Diorita + 1 Redstone
+// Quartzo direto
 recipes.addShapeless("easy_nether_quartz_direct", <minecraft:quartz> * 2, [
-    <minecraft:diorite>, <minecraft:redstone>
+    <minecraft:stone:3>, <minecraft:redstone>
 ]);
 
 // 2. Tijolo do Nether (Nether Brick Item)
@@ -525,4 +524,11 @@ recipes.addShaped("easy_end_portal_frame", <minecraft:end_portal_frame>, [
     [<minecraft:end_stone>, <minecraft:ender_eye>, <minecraft:end_stone>],
     [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],
     [null, null, null]
+]);
+
+// Receita para o Creative Vending Upgrade (Storage Drawers)
+recipes.addShaped("easy_creative_vending", <storagedrawers:upgrade_creative>, [
+    [<minecraft:diamond_block>, <minecraft:emerald_block>, <minecraft:diamond_block>],
+    [<minecraft:gold_block>, <minecraft:chest>, <minecraft:gold_block>],
+    [<minecraft:obsidian>, <minecraft:redstone_block>, <minecraft:obsidian>]
 ]);
