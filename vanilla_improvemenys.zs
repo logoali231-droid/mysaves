@@ -403,3 +403,126 @@ recipes.addShaped("easy_lava_craft", <minecraft:lava_bucket>, [
     [<minecraft:cobblestone>, <minecraft:bucket>, null],
     [null, <minecraft:coal>, null]
 ]);
+
+// ==========================================
+// MÓDULO NETHER COMPLETO (Acessibilidade)
+// ==========================================
+
+// 1. Minério de Quartzo (Nether Quartz Ore)
+// 1 Pedregulho + 1 Diorita + 1 Redstone = 2 Minérios de Quartzo
+recipes.addShaped("easy_quartz_ore", <minecraft:quartz_ore> * 2, [
+    [<minecraft:cobblestone>, <minecraft:diorite>, null],
+    [<minecraft:redstone>, <minecraft:cobblestone>, null],
+    [null, null, null]
+]);
+
+// Quartzo direto (Item): 1 Diorita + 1 Redstone
+recipes.addShapeless("easy_nether_quartz_direct", <minecraft:quartz> * 2, [
+    <minecraft:diorite>, <minecraft:redstone>
+]);
+
+// 2. Tijolo do Nether (Nether Brick Item)
+// 1 Argila + 1 Carvão + 1 Redstone
+recipes.addShapeless("easy_nether_brick_item", <minecraft:netherbrick> * 2, [
+    <minecraft:clay_ball>, <minecraft:coal>, <minecraft:redstone>
+]);
+
+// Bloco de Tijolos do Nether (Nether Brick Block)
+recipes.addShaped("easy_nether_brick_block", <minecraft:nether_brick>, [
+    [<minecraft:netherbrick>, <minecraft:netherbrick>],
+    [<minecraft:netherbrick>, <minecraft:netherbrick>]
+]);
+
+// 3. Bloco de Magma & Magma Cream
+recipes.addShapeless("easy_magma_block_craft", <minecraft:magma> * 2, [
+    <minecraft:netherrack>, <minecraft:redstone>, <minecraft:coal>
+]);
+
+recipes.addShapeless("easy_magma_cream_craft", <minecraft:magma_cream> * 2, [
+    <minecraft:slime_ball>, <minecraft:redstone>
+]);
+
+// 4. Fungo do Nether (Nether Wart)
+// 1 Cogumelo Vermelho + 1 Açúcar
+recipes.addShapeless("easy_nether_wart_craft", <minecraft:nether_wart> * 2, [
+    <minecraft:red_mushroom>, <minecraft:sugar>
+]);
+
+// 5. Pó de Glowstone (Glowstone Dust)
+// 1 Redstone + 1 Pepita de Ouro
+recipes.addShapeless("easy_glowstone_dust", <minecraft:glowstone_dust> * 2, [
+    <minecraft:redstone>, <minecraft:gold_nugget>
+]);
+
+// 6. Estrela do Nether (Nether Star - Para Beacons)
+// 1 Bloco de Diamante + 4 Frascos de XP + 4 Blocos de Ouro
+recipes.addShaped("easy_nether_star", <minecraft:nether_star>, [
+    [<minecraft:gold_block>, <minecraft:experience_bottle>, <minecraft:gold_block>],
+    [<minecraft:experience_bottle>, <minecraft:diamond_block>, <minecraft:experience_bottle>],
+    [<minecraft:gold_block>, <minecraft:experience_bottle>, <minecraft:gold_block>]
+]);
+
+// 7. Cogumelo Vermelho / Marrom (Para fazer Poções e Fungos)
+recipes.addShapeless("easy_red_mushroom", <minecraft:red_mushroom> * 2, [
+    <minecraft:wheat_seeds>, <minecraft:apple>
+]);
+recipes.addShapeless("easy_brown_mushroom", <minecraft:brown_mushroom> * 2, [
+    <minecraft:wheat_seeds>, <minecraft:dirt>
+]);
+
+// ==========================================
+// MÓDULO THE END COMPLETO (Isolamento Total)
+// ==========================================
+
+// 1. Flor do Coro (Chorus Flower)
+// Permite plantar/cultivar Chorus na sua base sem explorar as ilhas
+recipes.addShapeless("easy_chorus_flower", <minecraft:chorus_flower>, [
+    <minecraft:chorus_fruit>, <minecraft:end_stone>, <minecraft:dye:5>
+]);
+
+// Fruta do Coro Estourada (Popped Chorus Fruit)
+recipes.addShapeless("easy_popped_chorus", <minecraft:chorus_fruit_popped> * 2, [
+    <minecraft:chorus_fruit>, <minecraft:coal>
+]);
+
+// 2. Blocos de Purpur (Purpur Block)
+// 4 Pedras do Fim + 1 Corante Roxo = 4 Blocos de Purpur
+recipes.addShaped("easy_purpur_block_alt", <minecraft:purpur_block> * 4, [
+    [<minecraft:end_stone>, <minecraft:end_stone>],
+    [<minecraft:end_stone>, <minecraft:dye:5>]
+]);
+
+// 3. Vara do Fim (End Rod - Excelente para Iluminação)
+// 1 Vara de Blaze + 1 Quartzo do Nether = 4 Varas do Fim
+recipes.addShaped("easy_end_rod", <minecraft:end_rod> * 4, [
+    [<minecraft:quartz>],
+    [<minecraft:blaze_rod>]
+]);
+
+// 4. Tijolos de Pedra do Fim (End Stone Bricks)
+recipes.addShaped("easy_end_bricks", <minecraft:end_bricks> * 4, [
+    [<minecraft:end_stone>, <minecraft:end_stone>],
+    [<minecraft:end_stone>, <minecraft:end_stone>]
+]);
+
+// 5. Cabeça de Dragão (Dragon Head)
+// 1 Crânio de Esqueleto + 1 Bafo de Dragão + 1 Obsidiana
+recipes.addShapeless("easy_dragon_head", <minecraft:skull:5>, [
+    <minecraft:skull:0>, <minecraft:dragon_breath>, <minecraft:obsidian>
+]);
+
+// 6. Ovo de Dragão (Dragon Egg - Troféu)
+// 1 Obsidiana + 4 Pedras do Fim + 4 Pérolas do Fim
+recipes.addShaped("easy_dragon_egg", <minecraft:dragon_egg>, [
+    [<minecraft:end_stone>, <minecraft:ender_pearl>, <minecraft:end_stone>],
+    [<minecraft:ender_pearl>, <minecraft:obsidian>, <minecraft:ender_pearl>],
+    [<minecraft:end_stone>, <minecraft:ender_pearl>, <minecraft:end_stone>]
+]);
+
+// 7. Moldura do Portal do Fim (End Portal Frame)
+// Permite construir a estrutura do portal na sua própria base se quiser usar como decoração ou atalho
+recipes.addShaped("easy_end_portal_frame", <minecraft:end_portal_frame>, [
+    [<minecraft:end_stone>, <minecraft:ender_eye>, <minecraft:end_stone>],
+    [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],
+    [null, null, null]
+]);
