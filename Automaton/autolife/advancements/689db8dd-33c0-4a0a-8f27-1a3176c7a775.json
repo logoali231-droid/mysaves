@@ -676,6 +676,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-05 15:23:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-10-05 15:37:17 -0300"
+    },
+    "done": true
+  },
   "ctoasmod:recipes/crafting_table_on_a_stick": {
     "criteria": {
       "has_crafting_table": "2026-10-05 11:00:39 -0300"
@@ -697,6 +709,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2026-10-05 13:58:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-10-05 15:37:17 -0300"
     },
     "done": true
   },
@@ -1150,6 +1168,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-05 15:23:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_bonemeal": "2026-10-05 11:56:15 -0300"
@@ -1371,6 +1395,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2026-10-05 11:04:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-10-05 15:23:21 -0300"
     },
     "done": true
   },
