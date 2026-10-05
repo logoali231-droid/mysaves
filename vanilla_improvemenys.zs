@@ -388,3 +388,18 @@ recipes.addShapeless("easy_chorus_fruit", <minecraft:chorus_fruit> * 2, [
 recipes.addShapeless("easy_melon_seeds", <minecraft:melon_seeds> * 2, [
     <minecraft:wheat_seeds>, <minecraft:green_dye>
 ]);
+
+// ==========================================
+// RENOVAÇÃO E CRIAÇÃO DE LAVA (1.12.2)
+// ==========================================
+
+// 1. Derreter Bloco de Magma na Fornalha -> Gera 1 Balde de Lava
+furnace.addRecipe(<minecraft:lava_bucket>, <minecraft:magma>);
+
+// 2. Derreter Pedras com Carvão na Workbench (Simulação de derretimento):
+// 1 Balde Vazio + 4 Pedras (Cobblestone) + 1 Carvão = 1 Balde de Lava
+recipes.addShaped("easy_lava_craft", <minecraft:lava_bucket>, [
+    [<minecraft:cobblestone>, <minecraft:cobblestone>, null],
+    [<minecraft:cobblestone>, <minecraft:bucket>, null],
+    [null, <minecraft:coal>, null]
+]);
