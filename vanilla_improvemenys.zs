@@ -548,3 +548,114 @@ recipes.addShapeless("starter_shield", <minecraft:shield>, [
 
 // 1 Terra + 1 Pedra -> Lava Charm
 // recipes.addShapeless("starter_lava", <reliquary:lava_charm>, [<minecraft:dirt>, <minecraft:cobblestone>]);
+
+// ==========================================
+// PACOTE EXPANDIDO DE UTILITÁRIOS E DROPS (1.12.2)
+// ==========================================
+
+// ------------------------------------------
+// 1. DROPS DE MOBS & UTENSÍLIOS DE COMBATE PASSIVO
+// ------------------------------------------
+
+// Pólvora (Gunpowder) x3
+// 1 Carvão + 1 Redstone + 1 Areia
+recipes.addShapeless("easy_gunpowder", <minecraft:gunpowder> * 3, [
+    <minecraft:coal>, <minecraft:redstone>, <minecraft:sand>
+]);
+
+// Lágrima de Ghast (Ghast Tear)
+// 1 Pote de Água + 1 Quartzo + 1 Pó de Blaze
+recipes.addShapeless("easy_ghast_tear", <minecraft:ghast_tear>, [
+    <minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:quartz>, <minecraft:blaze_powder>
+]);
+
+// Slimeball (Bola de Gosma)
+// 1 Cacto + 1 Farinha de Osso (dye:15)
+recipes.addShapeless("easy_slimeball", <minecraft:slime_ball> * 2, [
+    <minecraft:cactus>, <minecraft:dye:15>
+]);
+
+// Teia de Aranha (Cobweb)
+recipes.addShaped("easy_web", <minecraft:web>, [
+    [<minecraft:string>, null, <minecraft:string>],
+    [null, <minecraft:string>, null],
+    [<minecraft:string>, null, <minecraft:string>]
+]);
+
+// Sela (Saddle)
+recipes.addShaped("easy_saddle", <minecraft:saddle>, [
+    [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+    [<minecraft:string>, <minecraft:iron_ingot>, <minecraft:string>],
+    [null, null, null]
+]);
+
+// Totem da Imortalidade (Totem of Undying)
+// Dá uma "segunda vida" sem precisar enfrentar Mansões/Evokers
+recipes.addShaped("easy_totem", <minecraft:totem_of_undying>, [
+    [<minecraft:gold_ingot>, <minecraft:emerald>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, <minecraft:golden_apple>, <minecraft:gold_ingot>],
+    [null, <minecraft:gold_ingot>, null]
+]);
+
+
+// ------------------------------------------
+// 2. BOSSES & RECOMPENSAS SEM COMBATE (Wither & Shulkers)
+// ------------------------------------------
+
+// Crânio de Esqueleto Wither
+// 1 Crânio de Esqueleto Normal + 1 Bloco de Carvão
+recipes.addShapeless("easy_wither_skull", <minecraft:skull:1>, [
+    <minecraft:skull:0>, <minecraft:coal_block>
+]);
+
+// Estrela do Nether (Nether Star)
+// Permite fazer o Beacon sem ter que lutar contra o Wither
+recipes.addShaped("easy_nether_star", <minecraft:nether_star>, [
+    [<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>],
+    [<minecraft:soul_sand>, <minecraft:diamond_block>, <minecraft:soul_sand>],
+    [<minecraft:soul_sand>, <minecraft:soul_sand>, <minecraft:soul_sand>]
+]);
+
+// Casco de Shulker (Shulker Shell) x2
+// Permite criar Shulker Boxes para organizar estoque
+recipes.addShaped("easy_shulker_shell", <minecraft:shulker_shell> * 2, [
+    [<minecraft:end_stone>, <minecraft:chorus_fruit_popped>, <minecraft:end_stone>],
+    [<minecraft:end_stone>, <minecraft:dye:5>, <minecraft:end_stone>],
+    [null, null, null]
+]);
+
+// Élitro (Elytra)
+recipes.addShaped("easy_elytra", <minecraft:elytra>, [
+    [<minecraft:feather>, <minecraft:leather>, <minecraft:feather>],
+    [<minecraft:chorus_fruit_popped>, <minecraft:diamond>, <minecraft:chorus_fruit_popped>],
+    [<minecraft:feather>, null, <minecraft:feather>]
+]);
+
+
+// ------------------------------------------
+// 3. BLOCOS DE CONSTRUÇÃO, DECORAÇÃO & QoL
+// ------------------------------------------
+
+// Esponja (Sponge)
+recipes.addShapeless("easy_sponge", <minecraft:sponge>, [
+    <minecraft:wool:4>, <minecraft:water_bucket>
+]);
+
+// Maçã Dourada Encantada (Notch Apple)
+// Traz de volta a receita antiga da 1.8
+recipes.addShaped("easy_notch_apple", <minecraft:golden_apple:1>, [
+    [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>],
+    [<minecraft:gold_block>, <minecraft:apple>, <minecraft:gold_block>],
+    [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>]
+]);
+
+// Armadura de Cota de Malha (Chainmail) usando Barras de Ferro
+recipes.addShaped("chain_helmet", <minecraft:chainmail_helmet>, [
+    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
+    [<minecraft:iron_bars>, null, <minecraft:iron_bars>]
+]);
+recipes.addShaped("chain_chestplate", <minecraft:chainmail_chestplate>, [
+    [<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
+    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]
+]);
