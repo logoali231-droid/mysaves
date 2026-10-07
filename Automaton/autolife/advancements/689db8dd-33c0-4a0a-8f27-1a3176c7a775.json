@@ -722,12 +722,6 @@
     },
     "done": true
   },
-  "ctoasmod:recipes/crafting_table_on_a_stick": {
-    "criteria": {
-      "has_crafting_table": "2026-10-05 21:02:10 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2026-10-06 08:33:26 -0300"
@@ -1160,6 +1154,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2026-10-07 15:42:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2026-10-05 22:58:52 -0300"
@@ -1238,6 +1238,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/root": {
+    "criteria": {
+      "hold_manual": "2026-10-07 15:42:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_bonemeal": "2026-10-05 22:49:02 -0300"
@@ -1255,6 +1261,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2026-10-05 22:03:12 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "craft_hammer": "2026-10-07 15:42:06 -0300"
     },
     "done": true
   },
