@@ -1,0 +1,87 @@
+
+["Flower Seeds"]
+	#CornFlower Seed Recipe
+	cornflowerseed = true
+	#Poppy Seed Recipe
+	poppyseed = true
+	#Azure Bluet Seed Recipe
+	azureseed = true
+	#Blue Orchid Seed Recipe
+	orchidseed = true
+	#White Tulip Seed Recipe
+	tulip_whiteseed = true
+	#Lily of The Valley Seed Recipe
+	lilyseed = true
+	#Allium Seed Recipe
+	alliumseed = true
+	#Dandelion Seed Recipe
+	dandelionseed = true
+	#Orange Tulip Seed Recipe
+	tulip_orangeseed = true
+	#Pink Tulip Seed Recipe
+	tulip_pinkseed = true
+	#Red Tulip Seed Recipe
+	tulip_redseed = true
+	#Oxeye Daisy Seed Recipe
+	oxeyeseed = true
+	#Wither Rose Seed Recipe
+	witherroseseed = false
+
+["Flower Seeds Cyclic"]
+	#Cyan Rose Seed Recipe. (Useless if Cyclic is not installed)
+	cyanroseseed = false
+
+["Flower Seeds Terra"]
+	#foxglove Seed Recipe. (Useless if Terra Incognita is not installed)
+	foxgloveseed = false
+	#yellow_primrose Seed Recipe. (Useless if Terra Incognita is not installed)
+	yellow_primroseseed = false
+	#wild_garlic Seed Recipe. (Useless if Terra Incognita is not installed)
+	wild_garlicseed = false
+	#alpine_pink Seed Recipe. (Useless if Terra Incognita is not installed)
+	alpine_pinkseed = false
+	#purple_primrose Seed Recipe. (Useless if Terra Incognita is not installed)
+	purple_primroseseed = false
+	#red_snapdragon Seed Recipe. (Useless if Terra Incognita is not installed)
+	red_snapdragonseed = false
+	#gentian Seed Recipe. (Useless if Terra Incognita is not installed)
+	gentianseed = false
+	#purple_iris Seed Recipe. (Useless if Terra Incognita is not installed)
+	purple_irisseed = false
+	#magenta_snapdragon Seed Recipe. (Useless if Terra Incognita is not installed)
+	magenta_snapdragonseed = false
+	#saxifrage Seed Recipe. (Useless if Terra Incognita is not installed)
+	saxifrageseed = false
+	#white_dryad Seed Recipe. (Useless if Terra Incognita is not installed)
+	white_dryadseed = false
+	#edelweiss Seed Recipe. (Useless if Terra Incognita is not installed)
+	edelweissseed = false
+	#fireweed Seed Recipe. (Useless if Terra Incognita is not installed)
+	fireweedseed = false
+	#black_iris Seed Recipe. (Useless if Terra Incognita is not installed)
+	black_irisseed = false
+	#marigold Seed Recipe. (Useless if Terra Incognita is not installed)
+	marigoldseed = false
+	#forget_me_not Seed Recipe. (Useless if Terra Incognita is not installed)
+	forget_me_notseed = false
+	#blue_iris Seed Recipe. (Useless if Terra Incognita is not installed)
+	blue_irisseed = false
+	#daffodil Seed Recipe. (Useless if Terra Incognita is not installed)
+	daffodilseed = false
+	#chicory Seed Recipe. (Useless if Terra Incognita is not installed)
+	chicoryseed = false
+	#pink_primrose Seed Recipe. (Useless if Terra Incognita is not installed)
+	pink_primroseseed = false
+	#yellow_snapdragon Seed Recipe. (Useless if Terra Incognita is not installed)
+	yellow_snapdragonseed = false
+	#blue_lupine Seed Recipe. (Useless if Terra Incognita is not installed)
+	blue_lupineseed = false
+	#dandelion_puff Seed Recipe. (Useless if Terra Incognita is not installed)
+	dandelion_puffseed = false
+	#yarrow Seed Recipe. (Useless if Terra Incognita is not installed)
+	yarrowseed = false
+	#globeflower Seed Recipe. (Useless if Terra Incognita is not installed)
+	globeflowerseed = false
+	#arctic_poppy Seed Recipe. (Useless if Terra Incognita is not installed)
+	arctic_poppyseed = false
+

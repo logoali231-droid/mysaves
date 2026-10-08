@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "689db8dd33c04a0a8f271a3176c7a775"
+	name: "mateo12356"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

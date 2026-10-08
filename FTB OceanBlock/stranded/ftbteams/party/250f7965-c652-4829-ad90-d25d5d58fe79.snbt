@@ -1,0 +1,20 @@
+{
+	id: "250f7965-c652-4829-ad90-d25d5d58fe79"
+	type: "party"
+	owner: "689db8dd-33c0-4a0a-8f27-1a3176c7a775"
+	ranks: {
+		689db8dd-33c0-4a0a-8f27-1a3176c7a775: "owner"
+	}
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbteams:display_name": "mateo12356's Party"
+		"ftbteams:color": "#59FFA7"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1791470807504L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"mateo12356\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }]
+	extra: { }
+}
