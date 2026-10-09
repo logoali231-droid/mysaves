@@ -1,0 +1,52 @@
+{
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-10-09 13:26:11 -0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2026-10-09 13:26:42 -0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2026-10-09 13:26:42 -0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2026-10-09 13:26:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-10-09 13:43:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-10-09 13:29:14 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2026-10-09 13:26:43 -0300"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2026-10-09 13:26:42 -0300",
+      "inv_changed-diamond": "2026-10-09 13:26:42 -0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
