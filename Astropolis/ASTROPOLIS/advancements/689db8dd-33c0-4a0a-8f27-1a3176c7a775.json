@@ -1,7 +1,7 @@
 {
-  "mekanism:root": {
+  "immersiveengineering:main/craft_treatedwood": {
     "criteria": {
-      "automatic": "2026-10-09 13:26:11 -0300"
+      "has_item": "2026-10-09 17:53:40 -0300"
     },
     "done": true
   },
@@ -11,21 +11,9 @@
     },
     "done": true
   },
-  "toms_storage:unlock_glowstone": {
-    "criteria": {
-      "inv_changed-glowstone": "2026-10-09 13:26:42 -0300"
-    },
-    "done": true
-  },
   "toms_storage:unlock_netherite": {
     "criteria": {
       "inv_changed-netherite": "2026-10-09 13:26:42 -0300"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2026-10-09 13:43:57 -0300"
     },
     "done": true
   },
@@ -35,9 +23,39 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "has_item": "2026-10-09 17:35:07 -0300"
+    },
+    "done": true
+  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2026-10-09 13:26:43 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/mb_cokeoven": {
+    "criteria": {
+      "form_multiblock": "2026-10-09 17:35:12 -0300"
+    },
+    "done": true
+  },
+  "compactmachines:claimed_machine_max": {
+    "criteria": {
+      "claimed_machine": "2026-10-09 17:33:14 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/main_root": {
+    "criteria": {
+      "has_item": "2026-10-09 17:51:33 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_workbench": {
+    "criteria": {
+      "has_item": "2026-10-09 18:00:02 -0300"
     },
     "done": true
   },
@@ -45,6 +63,60 @@
     "criteria": {
       "inv_changed-ender_pearl": "2026-10-09 13:26:42 -0300",
       "inv_changed-diamond": "2026-10-09 13:26:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-10-09 16:33:50 -0300"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-10-09 13:26:11 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/mb_blastfurnace": {
+    "criteria": {
+      "form_multiblock": "2026-10-09 18:13:16 -0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:tools/tools_root": {
+    "criteria": {
+      "has_item": "2026-10-09 18:00:02 -0300"
+    },
+    "done": true
+  },
+  "quark:get_all_blossom_saplings": {
+    "criteria": {
+      "pink": "2026-10-09 16:21:28 -0300"
+    },
+    "done": false
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2026-10-09 13:26:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-10-09 13:43:57 -0300"
+    },
+    "done": true
+  },
+  "compactmachines:got_shrinking_device": {
+    "criteria": {
+      "obtained_psd": "2026-10-09 17:32:55 -0300"
+    },
+    "done": true
+  },
+  "trashcans:ultimate_trash_can": {
+    "criteria": {
+      "has_ultimate_trash_can": "2026-10-09 17:56:17 -0300"
     },
     "done": true
   },
