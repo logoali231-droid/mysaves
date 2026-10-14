@@ -1,0 +1,864 @@
+{
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-10-14 11:46:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "inventorypets:inventorypets/1": {
+    "criteria": {
+      "example": "2026-10-14 13:15:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_purple_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_sorter": {
+    "criteria": {
+      "has_hopper": "2026-10-14 15:56:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_diamond_dagger": {
+    "criteria": {
+      "has_diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "wormhole:recipes/search/portal_stabilizer": {
+    "criteria": {
+      "iron": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_stone_chunk_from_block": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_panel_cobblestone": {
+    "criteria": {
+      "has_block": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2026-10-14 11:42:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_wooden_dagger": {
+    "criteria": {
+      "has_wood": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_green_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-10-14 11:40:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_at_least_9_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_rope": {
+    "criteria": {
+      "has_string": "2026-10-14 11:46:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2026-10-14 11:41:31 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2026-10-14 13:39:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "wormhole:recipes/search/basic_target_cell": {
+    "criteria": {
+      "item": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_stone_dagger": {
+    "criteria": {
+      "has_stone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2026-10-14 15:25:51 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2026-10-14 11:44:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_diamond_mace": {
+    "criteria": {
+      "has_diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2026-10-14 11:40:55 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_wooden_mace": {
+    "criteria": {
+      "has_wood": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:story/prospector": {
+    "criteria": {
+      "coal_item": "2026-10-14 15:25:44 -0300",
+      "diamond_item": "2026-10-14 16:19:21 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2026-10-14 13:06:13 -0300"
+    },
+    "done": false
+  },
+  "rftools:builder": {
+    "criteria": {
+      "placed_builder": "2026-10-14 14:12:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:foraging/obtain_soil": {
+    "criteria": {
+      "dirt": "2026-10-14 15:25:40 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-10-14 11:46:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "simplyjetpacks:vanilla/root_vanilla": {
+    "criteria": {
+      "code_trigger": "2026-10-14 11:35:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_orange_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_diamond_plating": {
+    "criteria": {
+      "has_diamond_ingot": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-10-14 11:42:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/root": {
+    "criteria": {
+      "tick": "2026-10-14 11:35:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2026-10-14 15:25:51 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_iron_mace": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-10-14 11:46:06 -0300"
+    },
+    "done": true
+  },
+  "inventorypets:inventorypets/root": {
+    "criteria": {
+      "auto": "2026-10-14 11:35:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2026-10-14 11:46:06 -0300"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/fill_all_tanks": {
+    "criteria": {
+      "small_tank": "2026-10-14 11:40:15 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/fill_tank": {
+    "criteria": {
+      "small_tank": "2026-10-14 11:40:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "wormhole:recipes/search/coal_generator": {
+    "criteria": {
+      "item": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2026-10-14 14:47:00 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "wormhole:recipes/search/target_device": {
+    "criteria": {
+      "iron": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/oxygen_gear": {
+    "criteria": {
+      "small_tank": "2026-10-14 11:40:15 -0300",
+      "oxygen_gear": "2026-10-14 11:40:15 -0300",
+      "oxygen_mask": "2026-10-14 11:40:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-10-14 12:02:36 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:story/masonry": {
+    "criteria": {
+      "cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": false
+  },
+  "simplyjetpacks:te/root_te": {
+    "criteria": {
+      "code_trigger": "2026-10-14 11:35:01 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "inventorypets:inventorypets/qcm": {
+    "criteria": {
+      "crafting_table": "2026-10-14 13:15:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:automation/hopper": {
+    "criteria": {
+      "hopper": "2026-10-14 15:56:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-10-14 12:02:28 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_cyan_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "inventorypets:inventorypets/loot": {
+    "criteria": {
+      "crafting_table": "2026-10-14 14:44:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:story/biome_stones": {
+    "criteria": {
+      "stone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": false
+  },
+  "minestrapp:recipes/block_panel_oak": {
+    "criteria": {
+      "has_block": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "trashcompactor:recipes/trash_compactor": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 15:24:32 -0300",
+      "has_planks": "2026-10-14 15:24:32 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "simplyjetpacks:mek/root_mek": {
+    "criteria": {
+      "code_trigger": "2026-10-14 11:35:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "wormhole:recipes/search/portal_frame": {
+    "criteria": {
+      "iron": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:adventure/skol": {
+    "criteria": {
+      "skeleton": "2026-10-14 13:05:59 -0300"
+    },
+    "done": false
+  },
+  "minestrapp:recipes/block_crate": {
+    "criteria": {
+      "has_stick": "2026-10-14 11:41:56 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_red_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/item_stone_mace": {
+    "criteria": {
+      "has_stone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_alloy_furnace": {
+    "criteria": {
+      "has_furnace": "2026-10-14 13:34:19 -0300"
+    },
+    "done": true
+  },
+  "moreplanets:recipes/polished_tin_decoration_block": {
+    "criteria": {
+      "has_item": "2026-10-14 11:48:00 -0300"
+    },
+    "done": true
+  },
+  "minestrapp:recipes/block_glowing_white_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-10-14 13:39:16 -0300"
+    },
+    "done": true
+  },
+  "simplyjetpacks:root": {
+    "criteria": {
+      "code_trigger": "2026-10-14 11:35:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "wormhole:recipes/search/basic_energy_cell": {
+    "criteria": {
+      "item": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2026-10-14 16:19:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool": {
+    "criteria": {
+      "has_white_wool": "2026-10-14 11:46:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-10-14 14:57:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-14 13:30:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2026-10-14 11:45:23 -0300"
+    },
+    "done": true
+  },
+  "inventorypets:inventorypets/mickerson": {
+    "criteria": {
+      "crafting_table": "2026-10-14 13:17:06 -0300"
+    },
+    "done": true
+  }
+}
