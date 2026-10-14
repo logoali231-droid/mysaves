@@ -16,7 +16,7 @@ if not defined PRISM_DIR if exist "%LOCALAPPDATA%\Programs\PrismLauncher\instanc
 if not defined PRISM_DIR if exist "%LOCALAPPDATA%\PrismLauncher\instances" set "PRISM_DIR=%LOCALAPPDATA%\PrismLauncher\instances"
 
 echo ===================================================
-echo     RESTAURAÇÃO DINÂMICA DE MUNDOS - MYSAVES
+echo     RESTAURAÇÃO DINÂMICA E AUTO-INSTALL DE MODS
 echo ===================================================
 echo.
 
@@ -47,7 +47,7 @@ for /f "delims=" %%D in ('dir "%REPO_DIR%" /b /ad') do (
     if /i not "%%D"==".git" (
         set /a icount+=1
         set "repo_inst[!icount!]=%%D"
-        echo  !icount! - %%D
+        echo   !icount! - %%D
     )
 )
 echo ---------------------------------------------------
@@ -72,9 +72,11 @@ echo.
 echo Selecione o MUNDO que deseja restaurar:
 echo ---------------------------------------------------
 for /f "delims=" %%W in ('dir "%REPO_DIR%\%SELECTED_REPO_INST%" /b /ad') do (
-    set /a wcount+=1
-    set "repo_world[!wcount!]=%%W"
-    echo  !wcount! - %%W
+    if /i not "%%W"=="mods" if /i not "%%W"=="config" (
+        set /a wcount+=1
+        set "repo_world[!wcount!]=%%W"
+        echo   !wcount! - %%W
+    )
 )
 echo ---------------------------------------------------
 
@@ -100,7 +102,7 @@ echo ---------------------------------------------------
 for /f "delims=" %%P in ('dir "%PRISM_DIR%" /b /ad') do (
     set /a pcount+=1
     set "prism_inst[!pcount!]=%%P"
-    echo  !pcount! - %%P
+    echo   !pcount! - %%P
 )
 echo ---------------------------------------------------
 
@@ -121,6 +123,10 @@ if "%TARGET_PRISM_INST%"=="" (
 
 set "SOURCE_DIR=%REPO_DIR%\%SELECTED_REPO_INST%\%SELECTED_WORLD%"
 set "TARGET_DIR=%PRISM_DIR%\%TARGET_PRISM_INST%\minecraft\saves\%SELECTED_WORLD%"
+set "REPO_MODS_DIR=%REPO_DIR%\%SELECTED_REPO_INST%\mods"
+set "TARGET_MODS_DIR=%PRISM_DIR%\%TARGET_PRISM_INST%\minecraft\mods"
+set "REPO_CFG_DIR=%REPO_DIR%\%SELECTED_REPO_INST%\config"
+set "TARGET_CFG_DIR=%PRISM_DIR%\%TARGET_PRISM_INST%\minecraft\config"
 
 echo.
 echo [INFO] Origem (Git):     "%SOURCE_DIR%"
@@ -132,8 +138,25 @@ if not exist "%TARGET_DIR%" mkdir "%TARGET_DIR%"
 echo [INFO] Restaurando mundo no Prism Launcher...
 robocopy "%SOURCE_DIR%" "%TARGET_DIR%" /E /MIR /FFT /R:2 /W:2 /XJ /NDL /NFL /NJH /NJS
 
+if exist "%REPO_MODS_DIR%" (
+    echo.
+    echo [INFO] Auto-instalando / atualizando mods adicionais em lote...
+    if not exist "%TARGET_MODS_DIR%" mkdir "%TARGET_MODS_DIR%"
+    robocopy "%REPO_MODS_DIR%" "%TARGET_MODS_DIR%" /E /XO /FFT /R:2 /W:2 /NDL /NFL /NJH /NJS
+)
+
+if exist "%REPO_CFG_DIR%" (
+    echo [INFO] Atualizando pasta config...
+    if not exist "%TARGET_CFG_DIR%" mkdir "%TARGET_CFG_DIR%"
+    robocopy "%REPO_CFG_DIR%" "%TARGET_CFG_DIR%" /E /XO /FFT /R:2 /W:2 /NDL /NFL /NJH /NJS
+)
+
+if exist "%REPO_DIR%\%SELECTED_REPO_INST%\options.txt" (
+    copy /y "%REPO_DIR%\%SELECTED_REPO_INST%\options.txt" "%PRISM_DIR%\%TARGET_PRISM_INST%\minecraft\options.txt" >nul
+)
+
 echo.
 echo ===================================================
-echo   Mundo "%SELECTED_WORLD%" restaurado em "%TARGET_PRISM_INST%"!
+echo   Mundo e Mods de "%SELECTED_REPO_INST%" sincronizados com sucesso em "%TARGET_PRISM_INST%"!
 echo ===================================================
 pause
