@@ -16,7 +16,7 @@ if not defined PRISM_DIR if exist "%LOCALAPPDATA%\Programs\PrismLauncher\instanc
 if not defined PRISM_DIR if exist "%LOCALAPPDATA%\PrismLauncher\instances" set "PRISM_DIR=%LOCALAPPDATA%\PrismLauncher\instances"
 
 echo ===================================================
-echo     BACKUP DINÂMICO DE MUNDOS - MYSAVES
+echo     BACKUP DINÂMICO DE MUNDOS E MODS - MYSAVES
 echo ===================================================
 echo.
 
@@ -36,7 +36,7 @@ echo ---------------------------------------------------
 for /f "delims=" %%D in ('dir "%PRISM_DIR%" /b /ad') do (
     set /a count+=1
     set "inst[!count!]=%%D"
-    echo  !count! - %%D
+    echo   !count! - %%D
 )
 echo ---------------------------------------------------
 
@@ -56,6 +56,9 @@ if "%SELECTED_INST%"=="" (
 )
 
 set "SAVES_DIR=%PRISM_DIR%\%SELECTED_INST%\minecraft\saves"
+set "MODS_DIR=%PRISM_DIR%\%SELECTED_INST%\minecraft\mods"
+set "CONFIG_DIR=%PRISM_DIR%\%SELECTED_INST%\minecraft\config"
+set "OPTIONS_FILE=%PRISM_DIR%\%SELECTED_INST%\minecraft\options.txt"
 
 if not exist "%SAVES_DIR%" (
     echo [ERRO] A pasta 'saves' ainda não existe em:
@@ -72,7 +75,7 @@ echo ---------------------------------------------------
 for /f "delims=" %%W in ('dir "%SAVES_DIR%" /b /ad') do (
     set /a wcount+=1
     set "world[!wcount!]=%%W"
-    echo  !wcount! - %%W
+    echo   !wcount! - %%W
 )
 echo ---------------------------------------------------
 
@@ -93,6 +96,8 @@ if "%SELECTED_WORLD%"=="" (
 
 set "WORLD_SOURCE=%SAVES_DIR%\%SELECTED_WORLD%"
 set "DEST_DIR=%REPO_DIR%\%SELECTED_INST%\%SELECTED_WORLD%"
+set "DEST_MODS_DIR=%REPO_DIR%\%SELECTED_INST%\mods"
+set "DEST_CONFIG_DIR=%REPO_DIR%\%SELECTED_INST%\config"
 
 echo.
 echo [INFO] Origem (Mundo): "%WORLD_SOURCE%"
@@ -112,19 +117,34 @@ if not exist "%REPO_DIR%\.git" (
 )
 
 echo.
-echo [INFO] Copiando arquivos do mundo para a estrutura do repositório...
+echo [INFO] Copiando arquivos do mundo...
 robocopy "%WORLD_SOURCE%" "%DEST_DIR%" /E /MIR /FFT /R:2 /W:2 /XJ /NDL /NFL /NJH /NJS
+
+if exist "%MODS_DIR%" (
+    echo [INFO] Sincronizando pasta de mods adicionais...
+    robocopy "%MODS_DIR%" "%DEST_MODS_DIR%" /E /MIR /FFT /R:2 /W:2 /XJ /NDL /NFL /NJH /NJS
+    dir "%MODS_DIR%\*.jar" /b > "%REPO_DIR%\%SELECTED_INST%\mods_list.txt" 2>nul
+)
+
+if exist "%CONFIG_DIR%" (
+    echo [INFO] Sincronizando configurações (config)...
+    robocopy "%CONFIG_DIR%" "%DEST_CONFIG_DIR%" /E /MIR /FFT /R:2 /W:2 /XJ /NDL /NFL /NJH /NJS
+)
+
+if exist "%OPTIONS_FILE%" (
+    copy /y "%OPTIONS_FILE%" "%REPO_DIR%\%SELECTED_INST%\options.txt" >nul
+)
 
 echo.
 echo [INFO] Enviando alterações para o GitHub...
 git add -A
 for /f "tokens=1-3 delims=/ " %%a in ("%date%") do set MYDATE=%%c-%%b-%%a
 for /f "tokens=1-2 delims=: " %%a in ("%time%") do set MYTIME=%%a:%%b
-git commit -m "Backup save: %SELECTED_INST% - %SELECTED_WORLD% (%MYDATE% %MYTIME%)" || echo [INFO] Nenhuma alteração nova detectada.
+git commit -m "Backup save & mods: %SELECTED_INST% - %SELECTED_WORLD% (%MYDATE% %MYTIME%)" || echo [INFO] Nenhuma alteração nova detectada.
 git push origin main
 
 echo.
 echo ===================================================
-echo   Backup do mundo "%SELECTED_WORLD%" concluído!
+echo   Backup do mundo "%SELECTED_WORLD%" e Instância concluído!
 echo ===================================================
 pause
