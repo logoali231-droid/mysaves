@@ -347,6 +347,12 @@
     },
     "done": true
   },
+  "botanypots:husbandry/botany_pot": {
+    "criteria": {
+      "get_botany_pot": "2026-10-15 16:11:19 -0300"
+    },
+    "done": true
+  },
   "pneumaticcraft:recipes/pneumaticcraft/plastic_brick_orange": {
     "criteria": {
       "has_the_recipe": "2026-10-15 15:23:04 -0300"
@@ -6481,6 +6487,12 @@
     },
     "done": true
   },
+  "botanypots:husbandry/hopper_botany_pot": {
+    "criteria": {
+      "get_hopper_pot": "2026-10-15 16:11:19 -0300"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_orange_to_slab": {
     "criteria": {
       "has_the_recipe": "2026-10-15 15:23:03 -0300"
@@ -10642,6 +10654,12 @@
   "betterendforge:recipes/betterendforge/thallasium_bulb_lantern_white": {
     "criteria": {
       "has_the_recipe": "2026-10-15 15:23:10 -0300"
+    },
+    "done": true
+  },
+  "woodenbuckets:recipes/wooden_bucket": {
+    "criteria": {
+      "has_log": "2026-10-15 16:08:12 -0300"
     },
     "done": true
   },
@@ -17923,6 +17941,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/smeltery/seared/seared_brick_kiln": {
+    "criteria": {
+      "has_item": "2026-10-15 16:26:07 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_the_recipe": "2026-10-15 15:23:04 -0300"
@@ -24604,6 +24628,12 @@
   "refinedstorage:recipes/refinedstorage/coloring_recipes/black_network_transmitter": {
     "criteria": {
       "has_the_recipe": "2026-10-15 15:23:05 -0300"
+    },
+    "done": true
+  },
+  "tconstruct:foundry/encyclopedia": {
+    "criteria": {
+      "crafted_book": "2026-10-15 16:28:24 -0300"
     },
     "done": true
   },
