@@ -1,54 +1,54 @@
 // =================================================================
 // ACCESSIBILITY & EFFICIENCY EXPANSION - IMMERSIVE ENGINEERING
-// Focado em reduzir cliques repetitivos e facilitar automações.
+// Focado no REAPROVEITAMENTO DIRETO DE SLAG para AÇO e acessibilidade.
 // =================================================================
 
 ServerEvents.recipes(event => {
   
   // ---------------------------------------------------------------
-  // 1. PROCESSAMENTO DE ESCÓRIA (SLAG) EM AÇO
+  // 1. REAPROVEITAMENTO DIRETO DE SLAG (ESCÓRIA) EM AÇO
+  // (Sem necessidade de adicionar Iron Ingot)
   // ---------------------------------------------------------------
   
-  // Receita individual no Blast Furnace: 2x Slag -> 1x Steel Ingot
+  // Receita direta no Blast Furnace: 4x Slag -> 1x Steel Ingot
   event.recipes.immersiveengineering.blast_furnace(
     'immersiveengineering:ingot_steel',
-    '2x immersiveengineering:slag',
+    '4x immersiveengineering:slag',
     'immersiveengineering:coal_coke'
   ).time(200)
 
-  // Receita em Lote no Blast Furnace: 16x Slag -> 1x Steel Block (economiza trocas de item)
+  // Receita em Lote no Blast Furnace: 36x Slag -> 1x Steel Block (Economiza abastecimento)
   event.recipes.immersiveengineering.blast_furnace(
     'immersiveengineering:storage_steel',
-    '16x immersiveengineering:slag',
+    '36x immersiveengineering:slag',
     'immersiveengineering:coke_brick'
   ).time(1200)
 
-  // Receita Alternativa na Crafting Table (Sem exigir o Blast Furnace para emergências)
+  // Reciclagem de Slag na Crafting Table (Purificação simples: Slag + Carvão = Aço)
   event.shapeless('immersiveengineering:ingot_steel', [
     '4x immersiveengineering:slag',
-    'minecraft:iron_ingot',
     'minecraft:coal'
   ])
 
+  // Reciclagem Expressa de Slag na Crafting Table (4x Slag + 1x Coal Coke -> 2x Steel Ingot)
+  event.shapeless('2x immersiveengineering:ingot_steel', [
+    '4x immersiveengineering:slag',
+    'immersiveengineering:coal_coke'
+  ])
+
   // ---------------------------------------------------------------
-  // 2. REDUÇÃO DE GRIND MANUAL (Sem necessidade do Engineer's Hammer)
+  // 2. REDUÇÃO DE GRIND MANUAL (Facilitadores sem Martelo)
   // ---------------------------------------------------------------
 
-  // Placas de Metal sem Martelo (1 Ingot -> 1 Plate)
+  // Placas de Metal Diretas (2x Lingotes -> 2x Placas, sem precisar usar o Hammer)
   const metals = ['iron', 'gold', 'copper', 'lead', 'silver', 'nickel', 'uranium', 'steel', 'aluminum']
   metals.forEach(metal => {
-    event.shapeless(`immersiveengineering:plate_${metal}`, [
-      `#forge:ingots/${metal}`,
-      '#forge:tools/hammers'
-    ]).damageIngredient('#forge:tools/hammers', 1)
-
-    // Receita direta e limpa para evitar cliques com martelo: 2x Lingotes -> 2x Placas
     event.shapeless(`2x immersiveengineering:plate_${metal}`, [
       `2x #forge:ingots/${metal}`
     ])
   })
 
-  // Rods/Varetas diretas (2x Lingotes -> 4x Rods)
+  // Rods/Varetas Diretas (2x Lingotes -> 4x Rods)
   metals.forEach(metal => {
     event.shaped(`4x immersiveengineering:rod_${metal}`, [
       'I',
@@ -59,10 +59,10 @@ ServerEvents.recipes(event => {
   })
 
   // ---------------------------------------------------------------
-  // 3. FACILITADORES DE REDE ELÉTRICA & CONEXÕES
+  // 3. FACILITADORES DE FIAÇÃO E CONEXÕES ELÉTRICAS (Lote Grande)
   // ---------------------------------------------------------------
 
-  // Bobinas de Fio em Lote (Reduz cliques ao fazer fiação elétrica)
+  // Bobinas de Fio em Lote
   event.shaped('8x immersiveengineering:wirecoil_copper', [
     ' W ',
     'WSW',
@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
     S: 'minecraft:stick'
   })
 
-  // Conectores e Relés em Lote (Rende 8x por fabricação)
+  // Conectores de Energia (Rende 8x por fabricação)
   event.shaped('8x immersiveengineering:connector_lv', [
     'C',
     'I',
@@ -101,10 +101,10 @@ ServerEvents.recipes(event => {
   })
 
   // ---------------------------------------------------------------
-  // 4. AUTOMAÇÃO DE CONCRETO (USANDO SLAG)
+  // 4. USO SECUNDÁRIO DO SLAG (CONCRETO EM LOTE)
   // ---------------------------------------------------------------
   
-  // Produção simplificada de blocos de Concreto para construção rápida
+  // Produção em massa de Concreto reaproveitando Slag
   event.shapeless('16x immersiveengineering:concrete', [
     '8x immersiveengineering:slag',
     '4x minecraft:gravel',
