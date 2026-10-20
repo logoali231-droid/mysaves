@@ -1,0 +1,18 @@
+filename = 'Easier Wood Creations 1.12.2.jar'
+name = 'Easier Wood Creations'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Easier Wood Creations(1.12.2)'
+
+[download]
+hash = 'a76c6b50972ae26048b17463999aadf25414eab6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5524932
+project-id = 900177

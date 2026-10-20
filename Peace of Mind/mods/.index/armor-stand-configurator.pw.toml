@@ -1,0 +1,18 @@
+filename = 'ArmorStandGUI-1.12-1.0.4.jar'
+name = 'Armor Stand Configurator'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ArmorStandGUI-1.12-1.0.4.jar'
+
+[download]
+hash = '402c4e09cde09dd33af35b941414b681f985f933'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2455545
+project-id = 266043

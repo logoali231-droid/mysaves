@@ -1,0 +1,18 @@
+filename = 'bonsaitrees-1.1.4-b170.jar'
+name = 'Bonsai Trees 4'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bonsaitrees-1.1.4-b170.jar'
+
+[download]
+hash = '7bab0859525fb9f2f64e81eb47b19ffa190feb3c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2846217
+project-id = 278993

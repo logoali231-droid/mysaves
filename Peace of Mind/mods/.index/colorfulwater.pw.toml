@@ -1,0 +1,18 @@
+filename = 'ColoredWater-1.12.2-b37.jar'
+name = 'ColorfulWater'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ColoredWater-1.12.2-b37.jar'
+
+[download]
+hash = 'a3683d2adabc0f2a99da66f27eab10b8e555b58c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2532613
+project-id = 283346

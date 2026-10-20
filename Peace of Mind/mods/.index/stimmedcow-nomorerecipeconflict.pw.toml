@@ -1,0 +1,18 @@
+filename = 'NoMoreRecipeConflict-0.13(1.12.2).jar'
+name = 'stimmedcow : NoMoreRecipeConflict'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NoMoreRecipeConflict-0.13'
+
+[download]
+hash = 'b6eb46393d7b163c9704ceaeb42fa2b9115ab980'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2671230
+project-id = 238123

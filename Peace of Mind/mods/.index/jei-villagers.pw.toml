@@ -1,0 +1,21 @@
+filename = 'jeivillagers-1.12-1.0.2.jar'
+name = 'JEI Villagers'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jeivillagers-1.12-1.0.2.jar'
+
+[download]
+hash = '82caaf16ae378d2e2eea9ecd58e9b8fe46ecb194'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2508393
+project-id = 283013
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'

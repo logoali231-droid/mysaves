@@ -1,0 +1,25 @@
+filename = 'simplegenerators-1.12.2-2.0.20.2.jar'
+name = 'Simple Generators'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'simplegenerators-1.12.2-2.0.20.2.jar'
+
+[download]
+hash = '9a1511f1648d72fca62a4bb854eb9aa682ee72d7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2694397
+project-id = 246010
+
+[[x-prismlauncher-dependencies]]
+addonId = '289532'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245480'
+type = 'REQUIRED'

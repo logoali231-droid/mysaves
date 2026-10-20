@@ -1,0 +1,21 @@
+filename = 'BiomeTweaker-1.12.2-3.2.369.jar'
+name = 'BiomeTweaker'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BiomeTweaker-1.12.2 3.2.369'
+
+[download]
+hash = '4f85402caa88c73794e8dc050386313f0a4c9ad5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3112142
+project-id = 228895
+
+[[x-prismlauncher-dependencies]]
+addonId = '270116'
+type = 'OPTIONAL'

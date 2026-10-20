@@ -1,0 +1,18 @@
+filename = 'refinedstorage-1.6.16.jar'
+name = 'Refined Storage'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.6.16'
+
+[download]
+hash = '007c8fb5bcc2bb99b7bbb055440e20b276251d77'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2940914
+project-id = 243076

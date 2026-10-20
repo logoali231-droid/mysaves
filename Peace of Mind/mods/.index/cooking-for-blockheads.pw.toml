@@ -1,0 +1,33 @@
+filename = 'CookingForBlockheads_1.12.2-6.5.0.jar'
+name = 'Cooking for Blockheads'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CookingForBlockheads_1.12.2-6.5.0.jar'
+
+[download]
+hash = '8e7b73b39c0bdae84a4be445027747c9bae935c4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2862651
+project-id = 231484
+
+[[x-prismlauncher-dependencies]]
+addonId = '222348'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '235328'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '242247'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '221857'
+type = 'OPTIONAL'

@@ -1,0 +1,21 @@
+filename = 'composter-1.12.2-1.9.2.jar'
+name = 'Canny Composter'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'composter-1.12.2-1.9.2.jar'
+
+[download]
+hash = '391004ca4e82a43cfc955a8f662074d48cc4d26b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2603332
+project-id = 297884
+
+[[x-prismlauncher-dependencies]]
+addonId = '298323'
+type = 'REQUIRED'

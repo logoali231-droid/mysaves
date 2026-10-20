@@ -1,0 +1,18 @@
+filename = 'antiqueatlas-1.12.2-4.6.3.jar'
+name = 'Antique Atlas'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'antiqueatlas-1.12.2-4.6.3.jar'
+
+[download]
+hash = '9531e665ad5d5aa7a84890147dddb6eaf86a5752'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2823030
+project-id = 227795

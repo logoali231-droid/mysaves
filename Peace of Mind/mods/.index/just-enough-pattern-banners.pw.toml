@@ -1,0 +1,21 @@
+filename = 'jepb-1.12-1.2.1.jar'
+name = 'Just Enough Pattern Banners'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'jepb-1.12-1.2.1.jar'
+
+[download]
+hash = 'fa2c85f9acb9717854e1fffec5c0ce88ab4378cc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2455920
+project-id = 263590
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'

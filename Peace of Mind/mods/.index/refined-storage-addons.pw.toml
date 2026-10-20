@@ -1,0 +1,21 @@
+filename = 'refinedstorageaddons-0.4.5.jar'
+name = 'Refined Storage Addons'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v0.4.5'
+
+[download]
+hash = '61cd5c8a76ab157cb4f4633e9de9ddfa68366948'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2941010
+project-id = 272302
+
+[[x-prismlauncher-dependencies]]
+addonId = '243076'
+type = 'REQUIRED'

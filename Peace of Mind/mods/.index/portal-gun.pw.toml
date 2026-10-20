@@ -1,0 +1,21 @@
+filename = 'PortalGun-1.12.2-7.1.0.jar'
+name = 'Portal Gun'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'PortalGun-1.12.2-7.1.0.jar'
+
+[download]
+hash = '2796a6f3723be6fddfdc547a59cc4420a34d823d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2684033
+project-id = 229084
+
+[[x-prismlauncher-dependencies]]
+addonId = '229060'
+type = 'REQUIRED'

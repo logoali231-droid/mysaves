@@ -1,0 +1,18 @@
+filename = 'TreeGrowingSimulator2017-1.0.1.jar'
+name = 'Tree Growing Simulator'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.9.4', '1.10.2', '1.11.2', '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Tree Growing Simulator - 1.0.1'
+
+[download]
+hash = 'dc7ed68cad4f87095bc37ba6f0f8cc133ec1892d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2452234
+project-id = 246764

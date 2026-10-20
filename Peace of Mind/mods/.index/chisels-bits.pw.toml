@@ -1,0 +1,25 @@
+filename = 'chiselsandbits-14.33.jar'
+name = 'Chisels & Bits - For Forge'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'chiselsandbits-14.33.jar'
+
+[download]
+hash = '0e6f159254e6899651087e5b1464bac91698d1d3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2720655
+project-id = 231095
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '239431'
+type = 'OPTIONAL'

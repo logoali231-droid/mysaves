@@ -1,0 +1,18 @@
+filename = 'BetterWithLib-1.12-1.5.jar'
+name = 'Better With Lib (BWM - Core)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BetterWithLib-1.12-1.5.jar'
+
+[download]
+hash = '5bdf3c80660753158f4a92ab063a9799341813d5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2624990
+project-id = 294335

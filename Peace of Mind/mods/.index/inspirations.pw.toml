@@ -1,0 +1,49 @@
+filename = 'Inspirations-1.12.2-0.2.9.jar'
+name = 'Inspirations'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Inspirations 0.2.9 for 1.12.2'
+
+[download]
+hash = '5bb254759f738570c53ef0bddb46220cf8659895'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2843007
+project-id = 284007
+
+[[x-prismlauncher-dependencies]]
+addonId = '253449'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '269714'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74924'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '323596'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227639'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '246391'
+type = 'OPTIONAL'

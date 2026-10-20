@@ -1,0 +1,21 @@
+filename = 'ctoasmod-1.12.2-1.1.jar'
+name = 'Crafting Table on a Stick'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ctoasmod-1.12.2-1.1.jar'
+
+[download]
+hash = '01ee62a3c90ed6b56dc70386381520c238b6eb3e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4892813
+project-id = 940778
+
+[[x-prismlauncher-dependencies]]
+addonId = '288885'
+type = 'OPTIONAL'

@@ -1,0 +1,21 @@
+filename = 'questbook-3.1.1-1.12.jar'
+name = 'Better Questing - Quest Book'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Better Questing - Quest Book 3.1.1-1.12'
+
+[download]
+hash = '9a9c9c3734f775fce2839dc3deb06f3a7ab64471'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2539562
+project-id = 242106
+
+[[x-prismlauncher-dependencies]]
+addonId = '238856'
+type = 'REQUIRED'

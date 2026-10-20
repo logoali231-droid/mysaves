@@ -1,0 +1,18 @@
+filename = 'prospectors-1.0.2.jar'
+name = 'Ore Prospectors'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'prospectors-1.0.2.jar'
+
+[download]
+hash = '57c1c05c73f6e5a159ed7f3a218638ed605c505b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2581578
+project-id = 275086

@@ -1,0 +1,18 @@
+filename = 'furnaceonastick-1.0.jar'
+name = 'Furnace on a Stick'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12-Snapshot', '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Furnace on a Stick 1.0'
+
+[download]
+hash = 'd8c29fb9c170f27ad3d2507dac542c05cbde104a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2475930
+project-id = 277056

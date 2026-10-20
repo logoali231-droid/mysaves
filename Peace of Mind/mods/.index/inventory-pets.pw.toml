@@ -1,0 +1,18 @@
+filename = 'inventorypets-1.12-2.0.15.jar'
+name = 'Inventory Pets'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'InventoryPets-1.12-2.0.15'
+
+[download]
+hash = 'ae26500f8ca04cf1a5218654dad2a59ad0161b43'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3341480
+project-id = 229380

@@ -1,0 +1,33 @@
+filename = 'BetterWithMods-1.12-2.3.23.jar'
+name = 'Better With Mods'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BetterWithMods-1.12-2.3.23.jar'
+
+[download]
+hash = '431d61f2d571bdd6cc5414288e02249d9d66fd7b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2965308
+project-id = 246760
+
+[[x-prismlauncher-dependencies]]
+addonId = '224472'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '267602'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '283447'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '294335'
+type = 'REQUIRED'

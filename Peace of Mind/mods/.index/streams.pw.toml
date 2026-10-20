@@ -1,0 +1,21 @@
+filename = 'Streams-1.12-0.4.9.jar'
+name = 'Streams'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Streams-1.12-0.4.9.jar'
+
+[download]
+hash = '82408b7604a56f06fbb25f23e9aef2ea154e17c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3109315
+project-id = 229769
+
+[[x-prismlauncher-dependencies]]
+addonId = '229708'
+type = 'REQUIRED'

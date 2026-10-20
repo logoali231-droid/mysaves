@@ -1,0 +1,25 @@
+filename = 'MagicalPsi-1.3.2.jar'
+name = 'Magical Psi'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MagicalPsi-1.3.2'
+
+[download]
+hash = 'db9c31ab6f1f0ee5be3bbbfa70acc859c458f435'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2678409
+project-id = 280893
+
+[[x-prismlauncher-dependencies]]
+addonId = '250363'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '241665'
+type = 'REQUIRED'

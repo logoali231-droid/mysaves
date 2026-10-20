@@ -1,0 +1,18 @@
+filename = 'JustAFewFish-1.7_for_1.12.jar'
+name = 'Just a Few Fish'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'JustAFewFish-1.7_for_1.12.jar'
+
+[download]
+hash = 'b843ae27c83073f02664488a432625c5394ae610'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2448283
+project-id = 235261
