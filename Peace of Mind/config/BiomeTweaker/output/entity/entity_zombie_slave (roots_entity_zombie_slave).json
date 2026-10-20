@@ -1,6 +1,0 @@
-
-{
-  "Name": "entity_zombie_slave",
-  "Registry ID": "roots:entity_zombie_slave",
-  "Class": "epicsquid.roots.entity.mob.EntityZombieSlave"
-}
