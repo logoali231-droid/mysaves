@@ -1,34 +1,4 @@
 {
-  "minecraft:recipes/redstone/wooden_button": {
-    "criteria": {
-      "has_planks": "2026-10-21 13:21:53 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2026-10-21 13:20:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2026-10-21 13:22:40 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_log": "2026-10-21 13:20:26 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2026-10-21 13:22:40 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2026-10-21 13:20:43 -0300"
@@ -47,15 +17,9 @@
     },
     "done": true
   },
-  "ctoasmod:recipes/crafting_table_on_a_stick": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
     "criteria": {
-      "has_crafting_table": "2026-10-21 13:18:51 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2026-10-21 13:20:43 -0300"
+      "has_vine": "2026-10-21 15:32:53 -0300"
     },
     "done": true
   },
@@ -65,9 +29,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
+  "bullseye:recipes/combat/extinguishing_arrow": {
     "criteria": {
-      "has_cobblestone": "2026-10-21 13:22:40 -0300"
+      "has_topper": "2026-10-21 15:37:43 -0300"
     },
     "done": true
   },
@@ -77,9 +41,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_cobblestone": "2026-10-21 13:22:40 -0300"
+      "has_water_bucket": "2026-10-21 15:25:46 -0300"
     },
     "done": true
   },
@@ -125,6 +89,18 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-10-21 15:23:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2026-10-21 15:25:54 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2026-10-21 13:22:40 -0300"
@@ -143,15 +119,15 @@
     },
     "done": true
   },
-  "jaff:recipes/jaff/iron_fishing_rod": {
-    "criteria": {
-      "has_stick": "2026-10-21 13:20:43 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2026-10-21 13:22:40 -0300"
+    },
+    "done": true
+  },
+  "rats:rats/root": {
+    "criteria": {
+      "tick": "2026-10-21 13:18:43 -0300"
     },
     "done": true
   },
@@ -161,15 +137,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/fence_gate": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_planks": "2026-10-21 13:21:53 -0300"
-    },
-    "done": true
-  },
-  "rats:rats/root": {
-    "criteria": {
-      "tick": "2026-10-21 13:18:43 -0300"
+      "entered_water": "2026-10-21 15:25:54 -0300"
     },
     "done": true
   },
@@ -191,21 +161,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_axe": {
-    "criteria": {
-      "has_cobblestone": "2026-10-21 13:22:40 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2026-10-21 13:21:53 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_door": {
+  "minecraft:recipes/transportation/boat": {
     "criteria": {
-      "has_planks": "2026-10-21 13:21:53 -0300"
+      "entered_water": "2026-10-21 15:25:54 -0300"
     },
     "done": true
   },
@@ -221,9 +185,130 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2026-10-21 15:25:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2026-10-21 15:25:54 -0300"
+    },
+    "done": true
+  },
   "jaff:recipes/jaff/golden_fishing_rod": {
     "criteria": {
       "has_stick": "2026-10-21 13:20:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-10-21 13:20:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2026-10-21 13:21:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-10-21 13:22:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2026-10-21 13:20:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-21 13:22:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2026-10-21 15:25:54 -0300"
+    },
+    "done": true
+  },
+  "bonsaitrees:grow": {
+    "criteria": {
+      "finished_growing_a_bonsai_tree": "2026-10-21 15:37:02 -0300"
+    },
+    "done": true
+  },
+  "trashcompactor:recipes/trash_compactor": {
+    "criteria": {
+      "has_cobblestone": "2026-10-21 15:23:55 -0300",
+      "has_planks": "2026-10-21 15:23:55 -0300"
+    },
+    "done": true
+  },
+  "ctoasmod:recipes/crafting_table_on_a_stick": {
+    "criteria": {
+      "has_crafting_table": "2026-10-21 13:18:51 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2026-10-21 15:23:55 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-10-21 13:20:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-10-21 13:22:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-10-21 13:22:40 -0300"
+    },
+    "done": true
+  },
+  "jaff:recipes/jaff/tank": {
+    "criteria": {
+      "has_water_bucket": "2026-10-21 15:25:46 -0300"
+    },
+    "done": true
+  },
+  "jaff:recipes/jaff/iron_fishing_rod": {
+    "criteria": {
+      "has_stick": "2026-10-21 13:20:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-21 13:21:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-21 13:22:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2026-10-21 13:21:53 -0300"
     },
     "done": true
   }
