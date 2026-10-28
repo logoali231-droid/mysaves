@@ -659,3 +659,111 @@ recipes.addShaped("chain_chestplate", <minecraft:chainmail_chestplate>, [
     [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
     [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]
 ]);
+
+#priority 100
+// =====================================================================
+// VANILLA IMPROVEMENTS ADD-ON
+// Minecraft 1.12.2 + CraftTweaker
+// Adicione este arquivo à pasta scripts do modpack.
+// Receitas adicionais: reciclagem, construção, agricultura e acessibilidade.
+// =====================================================================
+// ---------------------------------------------------------------------
+// 1. RECICLAGEM DE BLOCOS E MATERIAIS
+// ---------------------------------------------------------------------
+
+// Fardo de feno -> trigo
+recipes.addShapeless("improve_hay_bale_to_wheat", <minecraft:wheat> * 9, [
+    <minecraft:hay_block>
+]);
+
+// Bloco de osso -> 9 ossos
+recipes.addShapeless("improve_bone_block_to_bones", <minecraft:bone> * 9, [
+    <minecraft:bone_block>
+]);
+
+// Arenito -> areia (recuperação parcial)
+recipes.addShapeless("improve_sandstone_to_sand", <minecraft:sand> * 2, [
+    <minecraft:sandstone>
+]);
+
+// Arenito vermelho -> areia vermelha (recuperação parcial)
+recipes.addShapeless("improve_red_sandstone_to_red_sand", <minecraft:sand:1> * 2, [
+    <minecraft:red_sandstone>
+]);
+
+// ---------------------------------------------------------------------
+// 2. CONSTRUÇÃO E DECORAÇÃO
+// ---------------------------------------------------------------------
+
+// Pedregulho musgoso: pedra + cipó
+recipes.addShapeless("improve_mossy_cobblestone", <minecraft:mossy_cobblestone>, [
+    <minecraft:cobblestone>, <minecraft:vine>
+]);
+
+// Tijolos de pedra musgosos: tijolos de pedra + cipó
+recipes.addShapeless("improve_mossy_stone_bricks", <minecraft:stonebrick:1>, [
+    <minecraft:stonebrick>, <minecraft:vine>
+]);
+
+// Tijolos de pedra rachados: processar tijolos de pedra na fornalha
+furnace.addRecipe(<minecraft:stonebrick:2>, <minecraft:stonebrick>);
+
+// Tijolos de pedra talhados: 2 lajes de tijolos de pedra
+recipes.addShaped("improve_chiseled_stone_bricks", <minecraft:stonebrick:3>, [
+    [<minecraft:stone_slab:5>],
+    [<minecraft:stone_slab:5>]
+]);
+
+// ---------------------------------------------------------------------
+// 3. AGRICULTURA E RECURSOS RENOVÁVEIS
+// ---------------------------------------------------------------------
+
+// Trigo -> sementes de trigo
+recipes.addShapeless("improve_wheat_to_seeds", <minecraft:wheat_seeds> * 2, [
+    <minecraft:wheat>
+]);
+
+// Cenoura -> sementes de cenoura (alternativa de custo alto)
+recipes.addShapeless("improve_carrot_to_seeds", <minecraft:wheat_seeds>, [
+    <minecraft:carrot>, <minecraft:carrot>
+]);
+
+// Batata assada -> batata crua (recuperação não recomendada para equilíbrio)
+// Desativada intencionalmente: não criar uma conversão gratuita de alimento.
+
+// Couro: carne podre processada em fornalha
+furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>);
+
+// Linha: lã branca -> 4 linhas
+recipes.addShapeless("improve_wool_to_string", <minecraft:string> * 4, [
+    <minecraft:wool>
+]);
+
+// Corante branco: farinha de osso -> 3 corantes brancos
+recipes.addShapeless("improve_bone_meal_to_white_dye", <minecraft:dye:0> * 3, [
+    <minecraft:dye:15>
+]);
+
+// ---------------------------------------------------------------------
+// 4. ALTERNATIVAS DE UTILIDADE E ACESSIBILIDADE
+// ---------------------------------------------------------------------
+
+// Papel a partir de couro e cana: alternativa cara para emergências
+recipes.addShapeless("improve_leather_to_paper", <minecraft:paper>, [
+    <minecraft:leather>, <minecraft:sugar_cane>
+]);
+
+// ---------------------------------------------------------------------
+// 5. RECEITAS COM ORE DICTIONARY (COMPATIBILIDADE COM MODS)
+// ---------------------------------------------------------------------
+// As receitas abaixo aceitam materiais registrados no Ore Dictionary.
+// Podem coexistir com mods de tecnologia, mas confira duplicatas no JEI.
+
+// Qualquer lingote de ferro reconhecido pelo Ore Dictionary -> 1 pepita
+// Não incluída de propósito: muitos mods já fornecem receitas equivalentes.
+
+// ATENÇÃO: não é possível garantir que todo item de mod use o Ore Dictionary.
+// Para receitas específicas de mods, use o ID real mostrado no JEI.
+
+
+recipes.addShapeless(<minecraft:dye:1>, [<minecraft:red_flower:4>]);
