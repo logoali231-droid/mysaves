@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -173,6 +179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_stairs": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -242,6 +254,12 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log2": "2026-10-28 09:08:00 -0300"
     },
     "done": true
   },
@@ -317,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -349,9 +373,11 @@
   },
   "enderioconduits:root": {
     "criteria": {
-      "inv_changed-enderio:gravel": "2026-10-27 11:24:31 -0300"
+      "inv_changed-enderio:gravel": "2026-10-27 11:24:31 -0300",
+      "inv_changed-enderio:clay": "2026-10-28 11:11:15 -0300",
+      "inv_changed-enderio:sand": "2026-10-28 10:28:23 -0300"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/magenta_carpet": {
     "criteria": {
@@ -362,6 +388,12 @@
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
     },
     "done": true
   },
@@ -431,6 +463,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -479,6 +517,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2026-10-28 10:02:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_stairs": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -506,6 +550,12 @@
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-10-28 09:16:32 -0300"
     },
     "done": true
   },
@@ -538,6 +588,15 @@
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "skeleton": "2026-10-28 11:17:38 -0300",
+      "zombie": "2026-10-28 11:26:26 -0300",
+      "spider": "2026-10-28 11:26:25 -0300",
+      "creeper": "2026-10-28 11:26:24 -0300"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
@@ -671,6 +730,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-10-28 11:40:59 -0300"
+    },
+    "done": true
+  },
   "vanillafoodpantry:recipes/misc/simple_tonic_drink": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -707,9 +772,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
     },
     "done": true
   },
@@ -887,6 +964,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -896,6 +979,12 @@
   "vanillafoodpantry:recipes/misc/flavored_mayonnaise": {
     "criteria": {
       "has_the_basic_mayo_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-10-28 10:14:36 -0300"
     },
     "done": true
   },
@@ -959,6 +1048,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "skeleton": "2026-10-28 11:17:38 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -997,6 +1092,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "birch_forest": "2026-10-28 09:36:03 -0300",
+      "beaches": "2026-10-28 10:28:14 -0300",
       "plains": "2026-10-27 11:16:55 -0300",
       "river": "2026-10-27 11:23:48 -0300"
     },
@@ -1068,6 +1165,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -1092,6 +1195,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2026-10-28 09:14:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -1101,6 +1210,12 @@
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
     },
     "done": true
   },
@@ -1152,6 +1267,16 @@
     },
     "done": true
   },
+  "vanillafoodpantry:vanillafoodpantry/bravestomach": {
+    "criteria": {
+      "eat_beef_raw": "2026-10-28 09:51:04 -0300",
+      "eat_chicken_raw": "2026-10-28 09:51:08 -0300",
+      "eat_rotten_flesh": "2026-10-28 11:43:36 -0300",
+      "eat_porkchop_raw": "2026-10-28 11:18:13 -0300",
+      "eat_mutton_raw": "2026-10-28 11:18:24 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/yellow_carpet": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -1188,6 +1313,12 @@
     },
     "done": true
   },
+  "railcraft:tracks/root": {
+    "criteria": {
+      "get_sand": "2026-10-28 10:28:23 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -1203,6 +1334,12 @@
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_block": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
     },
     "done": true
   },
@@ -1520,13 +1657,25 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2026-10-28 09:51:08 -0300",
+      "beef": "2026-10-28 09:51:04 -0300",
+      "porkchop": "2026-10-28 11:18:13 -0300",
       "apple": "2026-10-27 12:10:54 -0300",
       "potato": "2026-10-27 12:11:40 -0300",
+      "mutton": "2026-10-28 11:18:24 -0300",
       "cookie": "2026-10-27 12:12:12 -0300",
+      "rotten_flesh": "2026-10-28 11:43:36 -0300",
       "beetroot": "2026-10-27 12:11:52 -0300",
+      "enchanted_golden_apple": "2026-10-28 10:22:53 -0300",
       "carrot": "2026-10-27 12:12:03 -0300"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
@@ -1645,6 +1794,12 @@
   "minecraft:recipes/decorations/orange_carpet": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-10-28 09:08:00 -0300"
     },
     "done": true
   },
@@ -1846,6 +2001,12 @@
     },
     "done": true
   },
+  "ctoasmod:recipes/crafting_table_on_a_stick": {
+    "criteria": {
+      "has_crafting_table": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -1918,6 +2079,12 @@
     },
     "done": true
   },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-10-28 10:14:36 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -1936,6 +2103,12 @@
     },
     "done": true
   },
+  "betterwithmods:hemp_leaf": {
+    "criteria": {
+      "has_item": "2026-10-28 09:57:38 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -1951,6 +2124,12 @@
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-10-28 11:40:59 -0300"
     },
     "done": true
   },
@@ -2050,6 +2229,12 @@
     },
     "done": true
   },
+  "titles:spelunker": {
+    "criteria": {
+      "spelunk": "2026-10-28 10:34:33 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -2059,6 +2244,12 @@
   "minecraft:recipes/decorations/snow_layer": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
     },
     "done": true
   },
@@ -2086,6 +2277,12 @@
     },
     "done": true
   },
+  "titles:chicken_chaser": {
+    "criteria": {
+      "chicken": "2026-10-28 09:16:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -2095,6 +2292,12 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-10-28 11:40:59 -0300"
     },
     "done": true
   },
@@ -2164,6 +2367,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -2227,6 +2442,18 @@
   "minecraft:recipes/decorations/cyan_bed": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_the_recipe": "2026-10-28 08:54:06 -0300"
+    },
+    "done": true
+  },
+  "culinaryconstruct:craft_food": {
+    "criteria": {
+      "sandwich": "2026-10-28 09:05:22 -0300"
     },
     "done": true
   },
@@ -2356,6 +2583,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2026-10-28 11:40:59 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
@@ -2437,6 +2670,12 @@
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2026-10-27 11:16:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2026-10-28 08:54:06 -0300"
     },
     "done": true
   }
