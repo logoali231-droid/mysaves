@@ -1,0 +1,218 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2026-10-29 20:31:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/crafting_table_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "mist:recipes/items/flint_and_stone": {
+    "criteria": {
+      "has_item_2": "2026-10-29 20:31:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2026-10-29 20:38:41 -0300"
+    },
+    "done": false
+  },
+  "advancedrocketry:normal/root": {
+    "criteria": {
+      "crafting_table": "2026-10-29 20:25:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "volcanic_island": "2026-10-29 20:12:00 -0300"
+    },
+    "done": false
+  },
+  "biomesoplenty:recipes/redstone/wooden_button_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/sign_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "survivalist:recipes/chopping2": {
+    "criteria": {
+      "has_the_recipe1": "2026-10-29 20:24:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "jaff:recipes/jaff/wooden_fishing_rod": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-10-29 20:38:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "jaff:recipes/jaff/iron_fishing_rod": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "jaff:recipes/jaff/diamond_fishing_rod": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "sparkshammers:root": {
+    "criteria": {
+      "crafting_table": "2026-10-29 20:25:56 -0300"
+    },
+    "done": true
+  },
+  "buildcraftcore:root": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-10-29 20:25:55 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/gray_dye_from_ash": {
+    "criteria": {
+      "has_flower": "2026-10-29 20:14:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "survivalist:recipes/chopping": {
+    "criteria": {
+      "has_log": "2026-10-29 20:24:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2026-10-29 20:31:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/tools/flower_basket": {
+    "criteria": {
+      "has_lots_of_items": "2026-10-29 20:21:47 -0300"
+    },
+    "done": true
+  },
+  "jaff:recipes/jaff/golden_fishing_rod": {
+    "criteria": {
+      "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/wooden_pressure_plate_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  }
+}
