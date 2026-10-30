@@ -17,9 +17,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2026-10-29 20:26:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
     },
     "done": true
   },
@@ -65,9 +83,21 @@
     },
     "done": false
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-10-30 17:36:43 -0300"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/wooden_button_from_bop_wood": {
     "criteria": {
       "has_the_recipe": "2026-10-29 20:25:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
     },
     "done": true
   },
@@ -119,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2026-10-29 20:25:37 -0300"
@@ -149,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2026-10-29 20:25:37 -0300"
@@ -167,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/gray_dye_from_ash": {
     "criteria": {
       "has_flower": "2026-10-29 20:14:07 -0300"
@@ -182,6 +230,12 @@
   "survivalist:recipes/chopping": {
     "criteria": {
       "has_log": "2026-10-29 20:24:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-10-30 17:36:43 -0300"
     },
     "done": true
   },
