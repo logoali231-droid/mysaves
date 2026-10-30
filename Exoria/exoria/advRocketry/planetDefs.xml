@@ -103,7 +103,7 @@
 				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>30</gravitationalMultiplier>
 				<orbitalDistance>120</orbitalDistance>
-				<orbitalPhi>178</orbitalPhi>
+				<orbitalPhi>176</orbitalPhi>
 				<rotationalPeriod>13000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
@@ -187,7 +187,7 @@
 				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>30</gravitationalMultiplier>
 				<orbitalDistance>130</orbitalDistance>
-				<orbitalPhi>178</orbitalPhi>
+				<orbitalPhi>176</orbitalPhi>
 				<rotationalPeriod>14000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
@@ -274,7 +274,7 @@
 				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>30</gravitationalMultiplier>
 				<orbitalDistance>110</orbitalDistance>
-				<orbitalPhi>178</orbitalPhi>
+				<orbitalPhi>176</orbitalPhi>
 				<rotationalPeriod>12000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
 				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
@@ -371,7 +371,7 @@
 			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>100</orbitalDistance>
-			<orbitalPhi>178</orbitalPhi>
+			<orbitalPhi>176</orbitalPhi>
 			<rotationalPeriod>10000</rotationalPeriod>
 			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>biomesoplenty:terrestrial_artifact 0 1</artifact>

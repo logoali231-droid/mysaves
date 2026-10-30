@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/buildingblocks/mud": {
+    "criteria": {
+      "has_item": "2026-10-30 11:22:36 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2026-10-29 20:26:24 -0300"
